@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3292713e470121104a908a5f746d439c" label="Student" max_length="40" name="x_407566_adventu_0_student" type="collection">
+        <element default="glidefunction:datediff(sys_created_on,birthdate)" function_definition="glidefunction:datediff(sys_created_on,birthdate)" function_field="true" label="Age" max_length="40" name="age" read_only="true" type="string"/>
+        <element label="Birthdate" max_length="40" name="birthdate" type="glide_date"/>
+        <element display="true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element default="&#10;" function_definition="&#10;" function_field="true" label="Full Name" max_length="40" name="full_name" read_only="true" type="string"/>
+        <element label="Gender" max_length="40" name="gender" type="string"/>
+        <element label="Grade" max_length="40" name="grade" type="string"/>
+        <element label="Home Address" max_length="40" name="home_address" type="string"/>
+        <element label="Known Allergies" max_length="40" name="known_allergies" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="School Address" max_length="40" name="school_address" type="string"/>
+        <element label="School Name" max_length="40" name="school_name" type="string"/>
+        <element label="Student ID" max_length="40" name="student_id" type="string"/>
+    </element>
+</database>

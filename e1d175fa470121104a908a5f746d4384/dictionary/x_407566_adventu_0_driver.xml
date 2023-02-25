@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="50dac636478121104a908a5f746d4301" label="Driver" max_length="40" name="x_407566_adventu_0_driver" type="collection">
+        <element choice="1" label="Active" max_length="40" name="active" type="choice">
+            <choice/>
+        </element>
+        <element label="Background Check" max_length="40" name="background_check" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Hire Date" max_length="255" name="hire_date" type="glide_date"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="License Number" max_length="40" name="license_number" type="string"/>
+        <element label="Mobile" max_length="40" name="mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
