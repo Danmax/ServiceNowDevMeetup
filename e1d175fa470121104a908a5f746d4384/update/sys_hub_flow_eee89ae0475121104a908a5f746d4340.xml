@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Create Parent Child Relationship</description>
+        <internal_name>create_parent_child_relationship</internal_name>
+        <label_cache>[{"name":"flow_variable.last_name","label":"Flow Variables➛Last Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"36fc08ba-eab2-431d-b25c-f4455e0c914c"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.table_name","label":"2 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.record","label":"2 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.date_of_birth","label":"1 - Get Catalog Variables➛date_of_birth","reference":"","reference_display":"date_of_birth","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.parent_relationship_to_child","label":"1 - Get Catalog Variables➛parent_relationship_to_child","reference":"","reference_display":"parent_relationship_to_child","type":"choice","base_type":"choice","choices":[{"label":"Father","value":"father","order":100.0},{"label":"Mother","value":"mother","order":100.0},{"label":"Legal Guardian","value":"legal_guardian","order":100.0},{"label":"Grandparent","value":"grandparent","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.school_name","label":"1 - Get Catalog Variables➛school_name","reference":"","reference_display":"school_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.grade","label":"1 - Get Catalog Variables➛grade","reference":"","reference_display":"grade","type":"choice","base_type":"choice","choices":[{"label":"Kindergarden","value":"kinder","order":100.0},{"label":"1st","value":"1st","order":100.0},{"label":"2nd","value":"2nd","order":100.0},{"label":"3rd","value":"3rd","order":100.0},{"label":"4th","value":"4th","order":100.0},{"label":"5th","value":"5th","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.gender","label":"1 - Get Catalog Variables➛gender","reference":"","reference_display":"gender","type":"choice","base_type":"choice","choices":[{"label":"Boy","value":"boy","order":100.0},{"label":"Girl","value":"girl","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.students_name","label":"1 - Get Catalog Variables➛students_name","reference":"","reference_display":"students_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.home_address","label":"1 - Get Catalog Variables➛home_address","reference":"","reference_display":"home_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.mobile","label":"1 - Get Catalog Variables➛mobile","reference":"","reference_display":"mobile","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.sys_created_on","label":"1 - Get Catalog Variables➛sys_created_on","reference":"","reference_display":"sys_created_on","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.parents_first_name","label":"1 - Get Catalog Variables➛parents_first_name","reference":"","reference_display":"parents_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name","label":"1 - Get Catalog Variables➛first_name","reference":"","reference_display":"first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name","label":"1 - Get Catalog Variables➛last_name","reference":"","reference_display":"last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone","label":"1 - Get Catalog Variables➛phone","reference":"","reference_display":"phone","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address","label":"1 - Get Catalog Variables➛home_address","reference":"","reference_display":"home_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_type","label":"1 - Get Catalog Variables➛home_type","reference":"","reference_display":"home_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"House","value":"house","order":100.0},{"label":"Apartment","value":"apartment","order":100.0},{"label":"Gated Community","value":"gated_community","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.parent_relationship_to_child","label":"1 - Get Catalog Variables➛parent_relationship_to_child","reference":"","reference_display":"parent_relationship_to_child","type":"choice","base_type":"choice","choices":[{"label":"Father","value":"father","order":100.0},{"label":"Mother","value":"mother","order":100.0},{"label":"Legal Guardian","value":"legal_guardian","order":100.0},{"label":"Grandparent","value":"grandparent","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.emergency_contact","label":"1 - Get Catalog Variables➛emergency_contact","reference":"","reference_display":"emergency_contact","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name","label":"1 - Get Catalog Variables➛students_first_name","reference":"","reference_display":"students_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name","label":"1 - Get Catalog Variables➛students_last_name","reference":"","reference_display":"students_last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender","label":"1 - Get Catalog Variables➛gender","reference":"","reference_display":"gender","type":"choice","base_type":"choice","choices":[{"label":"Boy","value":"boy","order":100.0},{"label":"Girl","value":"girl","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth","label":"1 - Get Catalog Variables➛date_of_birth","reference":"","reference_display":"date_of_birth","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade","label":"1 - Get Catalog Variables➛grade","reference":"","reference_display":"grade","type":"choice","base_type":"choice","choices":[{"label":"Kinder","value":"kinder","order":100.0},{"label":"1st","value":"1st","order":100.0},{"label":"2nd","value":"2nd","order":100.0},{"label":"3rd","value":"3rd","order":100.0},{"label":"4th","value":"4th","order":100.0},{"label":"5th","value":"5th","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name","label":"1 - Get Catalog Variables➛school_name","reference":"","reference_display":"school_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address","label":"1 - Get Catalog Variables➛school_address","reference":"","reference_display":"school_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.pick_up_time","label":"1 - Get Catalog Variables➛pick_up_time","reference":"","reference_display":"pick_up_time","type":"choice","base_type":"choice","choices":[{"label":"Morning Pickup","value":"morning_pickup","order":100.0},{"label":"Afternoon Pickup","value":"afternoon_pickup","order":100.0},{"label":"Morning and Afternoon","value":"morning_and_afternoon","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.pickup_location","label":"1 - Get Catalog Variables➛pickup_location","reference":"","reference_display":"pickup_location","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.drop_off_location","label":"1 - Get Catalog Variables➛drop_off_location","reference":"","reference_display":"drop_off_location","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.how_did_your_hear_about_us","label":"1 - Get Catalog Variables➛how_did_your_hear_about_us","reference":"","reference_display":"how_did_your_hear_about_us","type":"choice","base_type":"choice","choices":[{"label":"Facebook","value":"facebook","order":100.0},{"label":"Instagram","value":"instagram","order":100.0},{"label":"Website","value":"website","order":100.0},{"label":"Friend / Relative","value":"friend_relative","order":100.0},{"label":"School","value":"school","order":100.0},{"label":"Other Social Media","value":"other_social_media","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.comment","label":"1 - Get Catalog Variables➛comment","reference":"","reference_display":"comment","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.record","label":"4 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.table_name","label":"4 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.__action_status__","label":"4 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.__dont_treat_as_error__","label":"4 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.Record","label":"2 - Look Up Record➛Parent Record","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.Table","label":"2 - Look Up Record➛Parent Table","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.record","label":"8 - Create Record➛Parent Record","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.table_name","label":"8 - Create Record➛Parent Table","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.__action_status__","label":"8 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.__dont_treat_as_error__","label":"8 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.record","label":"6 - Create Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.table_name","label":"6 - Create Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.__action_status__","label":"6 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.__dont_treat_as_error__","label":"6 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.record","label":"5 - Create Record➛Relationship Record","reference":"x_407566_adventu_0_relationship","reference_display":"Relationship","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.table_name","label":"5 - Create Record➛Relationship Table","reference":"x_407566_adventu_0_relationship","reference_display":"Relationship","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"732e5362-b539-4e29-964c-067065717f5d.answer","label":"5 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"reference","base_type":"reference","attributes":{}},{"name":"732e5362-b539-4e29-964c-067065717f5d.table_name","label":"5 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"table_name","base_type":"table_name","attributes":{}},{"name":"6723b291-7d54-4176-968e-7476a39c26f2.answer","label":"5 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"reference","base_type":"reference","attributes":{}},{"name":"6723b291-7d54-4176-968e-7476a39c26f2.table_name","label":"5 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"table_name","base_type":"table_name","attributes":{}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.record.gender","label":"6 - Create Record➛Student Record➛Gender","reference":"","reference_display":"Gender","type":"string","base_type":"string","parent_table_name":"x_407566_adventu_0_student","column_name":"gender"},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__action_status__.code","label":"2➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.record","label":"9 - Create Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.table_name","label":"9 - Create Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.__action_status__","label":"9 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.__dont_treat_as_error__","label":"9 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.Record","label":"4 - Look Up Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.Table","label":"4 - Look Up Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.status","label":"4➛Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master_snapshot>8151662c475121104a908a5f746d4319</master_snapshot>
+        <name>Create Parent Child Relationship</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>9551662c475121104a908a5f746d43af</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 15:48:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eee89ae0475121104a908a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Parent Child Relationship</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_hub_flow_eee89ae0475121104a908a5f746d4340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 02:33:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eee89ae0475121104a908a5f746d4340"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eee89ae0475121104a908a5f746d4340"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9551662c475121104a908a5f746d43af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:14</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=eee89ae0475121104a908a5f746d4340"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=eee89ae0475121104a908a5f746d4340^sys_idNOT INb851262c475121104a908a5f746d43ac"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:39</sys_created_on>
+        <sys_id>b851262c475121104a908a5f746d43ac</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b851262c475121104a908a5f746d43ac"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=eee89ae0475121104a908a5f746d4340"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eee89ae0475121104a908a5f746d4340^sys_idNOT IN22e89ae0475121104a908a5f746d4343"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eee89ae0475121104a908a5f746d4340</id>
+        <name>Create Parent Child Relationship</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 15:48:55</sys_created_on>
+        <sys_id>22e89ae0475121104a908a5f746d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 15:48:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=22e89ae0475121104a908a5f746d4343"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=eee89ae0475121104a908a5f746d4340^sys_idNOT IN3c51262c475121104a908a5f746d43a4,f451262c475121104a908a5f746d439d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</model>
+        <model_id>eee89ae0475121104a908a5f746d4340</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:39</sys_created_on>
+        <sys_id>3c51262c475121104a908a5f746d43a4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</model>
+        <model_id>eee89ae0475121104a908a5f746d4340</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:39</sys_created_on>
+        <sys_id>f451262c475121104a908a5f746d439d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=eee89ae0475121104a908a5f746d4340"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eee89ae0475121104a908a5f746d4340"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eee89ae0475121104a908a5f746d4340^sys_idNOT IN4427057447d921104a908a5f746d43d6,4827057447d921104a908a5f746d43e1,c027057447d921104a908a5f746d43dc,c827057447d921104a908a5f746d43bf,f10c85f847d921104a908a5f746d43d8,fd0c85f847d921104a908a5f746d43c9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>4427057447d921104a908a5f746d43d6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4427057447d921104a908a5f746d43d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4427057447d921104a908a5f746d43d6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>7d0c85f847d921104a908a5f746d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4427057447d921104a908a5f746d43d6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>c427057447d921104a908a5f746d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <value>x_407566_adventu_0_parent</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4427057447d921104a908a5f746d43d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4427057447d921104a908a5f746d43d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>8027057447d921104a908a5f746d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name}}^email={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.email}}^ORmobile={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4427057447d921104a908a5f746d43d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>4427057447d921104a908a5f746d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>4427057447d921104a908a5f746d43d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>f90c85f847d921104a908a5f746d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4427057447d921104a908a5f746d43d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4427057447d921104a908a5f746d43d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>6</order>
+        <parent_ui_id>97d44f57-26e5-40e2-b513-85ced6ede923</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>4827057447d921104a908a5f746d43e1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>cfeed7dd-54de-4091-8100-a25bbe2b8faa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4827057447d921104a908a5f746d43e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4827057447d921104a908a5f746d43e1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>4c27057447d921104a908a5f746d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4827057447d921104a908a5f746d43e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4827057447d921104a908a5f746d43e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>0827057447d921104a908a5f746d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4827057447d921104a908a5f746d43e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>c827057447d921104a908a5f746d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}^birthdate={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth}}^gender={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender}}^grade={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^school_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name}}^school_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4827057447d921104a908a5f746d43e1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4827057447d921104a908a5f746d43e1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>8</order>
+        <parent_ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>c027057447d921104a908a5f746d43dc</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>618261f5-82a8-4e47-8b79-941a80e23805</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c027057447d921104a908a5f746d43dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c027057447d921104a908a5f746d43dc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>4c27057447d921104a908a5f746d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <value>x_407566_adventu_0_parent</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c027057447d921104a908a5f746d43dc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c027057447d921104a908a5f746d43dc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>0827057447d921104a908a5f746d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c027057447d921104a908a5f746d43dc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>c827057447d921104a908a5f746d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name}}^email={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.email}}^mobile={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^home_type={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_type}}^=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c027057447d921104a908a5f746d43dc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c027057447d921104a908a5f746d43dc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:02</sys_created_on>
+        <sys_id>c827057447d921104a908a5f746d43bf</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>09d66444-10e0-4fa5-8458-8f84c42e5c1b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c827057447d921104a908a5f746d43bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c827057447d921104a908a5f746d43bf</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:02</sys_created_on>
+        <sys_id>0027057447d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:02</sys_updated_on>
+        <value>4ef53cb0479921104a908a5f746d43bc:item_option_new,48c638f0479921104a908a5f746d43ec:item_option_new,0a07b8b0479921104a908a5f746d439c:item_option_new,3c17fcf0479921104a908a5f746d435c:item_option_new,99473034479921104a908a5f746d43a1:item_option_new,8e6830b4479921104a908a5f746d4377:item_option_new,7859fcb4479921104a908a5f746d43ff:item_option_new,3eb9b4f4479921104a908a5f746d43ea:item_option_new,1c1a3cf4479921104a908a5f746d43f9:item_option_new,e66af038479921104a908a5f746d4316:item_option_new,c68a7438479921104a908a5f746d4390:item_option_new,9eaa3838479921104a908a5f746d4375:item_option_new,a4fa7c38479921104a908a5f746d4372:item_option_new,f17b7478479921104a908a5f746d43e9:item_option_new,7aab7878479921104a908a5f746d43d7:item_option_new,dbbbf878479921104a908a5f746d4383:item_option_new,b11cf0b8479921104a908a5f746d4344:item_option_new,2f3cb4b8479921104a908a5f746d4383:item_option_new,e86c78b8479921104a908a5f746d437b:item_option_new,617cf8b8479921104a908a5f746d434e:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c827057447d921104a908a5f746d43bf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:03</sys_created_on>
+        <sys_id>c427057447d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:03</sys_updated_on>
+        <value>c7a70c3847d521104a908a5f746d4355</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c827057447d921104a908a5f746d43bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>c827057447d921104a908a5f746d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:02</sys_created_on>
+        <sys_id>c027057447d921104a908a5f746d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>c827057447d921104a908a5f746d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:02</sys_created_on>
+        <sys_id>8c27057447d921104a908a5f746d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>c827057447d921104a908a5f746d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:30:02</sys_created_on>
+        <sys_id>c827057447d921104a908a5f746d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:30:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c827057447d921104a908a5f746d43bf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c827057447d921104a908a5f746d43bf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>9</order>
+        <parent_ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>f10c85f847d921104a908a5f746d43d8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>cfae4936-a430-411b-ae57-6a509ddb0d7a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f10c85f847d921104a908a5f746d43d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f10c85f847d921104a908a5f746d43d8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>f90c85f847d921104a908a5f746d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f10c85f847d921104a908a5f746d43d8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f10c85f847d921104a908a5f746d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>b50c85f847d921104a908a5f746d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f10c85f847d921104a908a5f746d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>790c85f847d921104a908a5f746d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}^birthdate={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth}}^gender={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender}}^grade={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^school_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name}}^school_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f10c85f847d921104a908a5f746d43d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f10c85f847d921104a908a5f746d43d8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <order>4</order>
+        <parent_ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>fd0c85f847d921104a908a5f746d43c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>3a10a32d-77ba-4dda-972c-54e4070af4b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fd0c85f847d921104a908a5f746d43c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fd0c85f847d921104a908a5f746d43c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>fd0c85f847d921104a908a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fd0c85f847d921104a908a5f746d43c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fd0c85f847d921104a908a5f746d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>b90c85f847d921104a908a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fd0c85f847d921104a908a5f746d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>7d0c85f847d921104a908a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd0c85f847d921104a908a5f746d43c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd0c85f847d921104a908a5f746d43c9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=eee89ae0475121104a908a5f746d4340"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=eee89ae0475121104a908a5f746d4340^sys_idNOT IN390c85f847d921104a908a5f746d43d1,7d0c85f847d921104a908a5f746d43b1,b90c85f847d921104a908a5f746d43cc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">710c85f847d921104a908a5f746d43d1</block>
+        <comment/>
+        <connected_to>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>390c85f847d921104a908a5f746d43d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=390c85f847d921104a908a5f746d43d1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=390c85f847d921104a908a5f746d43d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=390c85f847d921104a908a5f746d43d1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">710c85f847d921104a908a5f746d43b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>7d0c85f847d921104a908a5f746d43b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d0c85f847d921104a908a5f746d43b1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d0c85f847d921104a908a5f746d43b1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>fd0c85f847d921104a908a5f746d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <value>Record Found</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7d0c85f847d921104a908a5f746d43b1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>7d0c85f847d921104a908a5f746d43b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>7d0c85f847d921104a908a5f746d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>7d0c85f847d921104a908a5f746d43b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>b90c85f847d921104a908a5f746d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7d0c85f847d921104a908a5f746d43b1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d0c85f847d921104a908a5f746d43b1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f10c85f847d921104a908a5f746d43cc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>b90c85f847d921104a908a5f746d43cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <ui_id>97d44f57-26e5-40e2-b513-85ced6ede923</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b90c85f847d921104a908a5f746d43cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b90c85f847d921104a908a5f746d43cc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>3d0c85f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <value>is not the same student</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b90c85f847d921104a908a5f746d43cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b90c85f847d921104a908a5f746d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>b90c85f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{3a10a32d-77ba-4dda-972c-54e4070af4b1.status}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b90c85f847d921104a908a5f746d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:28</sys_created_on>
+        <sys_id>f50c85f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b90c85f847d921104a908a5f746d43cc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b90c85f847d921104a908a5f746d43cc"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=eee89ae0475121104a908a5f746d4340^sys_idNOT IN7451262c475121104a908a5f746d43d8,b051262c475121104a908a5f746d43d8,b851262c475121104a908a5f746d43d7"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>eee89ae0475121104a908a5f746d4340</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:40</sys_created_on>
+        <sys_id>7451262c475121104a908a5f746d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:40</sys_updated_on>
+        <transform_compositions>[{"id":"84959031c37220103a334077d840dd8f","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="first_item">b09458fdc33220103a334077d840ddd6</transform_definition_id>
+        <ui_id>9dc44a24-5677-491a-8c12-eeec7895dd98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>eee89ae0475121104a908a5f746d4340</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:40</sys_created_on>
+        <sys_id>b051262c475121104a908a5f746d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:40</sys_updated_on>
+        <transform_compositions>[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":"\" \"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="split">2f3a1377c72333003884f80bf4c26038</transform_definition_id>
+        <ui_id>8ef50336-fbec-404c-86e6-8d368a44ee32</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>eee89ae0475121104a908a5f746d4340</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e56a1281-b2d2-4e69-ad82-254f53cc0e23.students_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:40</sys_created_on>
+        <sys_id>b851262c475121104a908a5f746d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=eee89ae0475121104a908a5f746d4340"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340^sys_idNOT INb051262c475121104a908a5f746d43a9,f451262c475121104a908a5f746d43a3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:39</sys_created_on>
+        <sys_id>b051262c475121104a908a5f746d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:39</sys_created_on>
+        <sys_id>f451262c475121104a908a5f746d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340_request_item_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_eee89ae0475121104a908a5f746d4340"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_eee89ae0475121104a908a5f746d4340"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_eee89ae0475121104a908a5f746d4340"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=eee89ae0475121104a908a5f746d4340^sys_idNOT IN9d51662c475121104a908a5f746d43af"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9d51662c475121104a908a5f746d43af","name":"plan","plan_signature":null}}</plan>
+        <plan_id>eee89ae0475121104a908a5f746d4340</plan_id>
+        <snapshot>8151662c475121104a908a5f746d4319</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d51662c475121104a908a5f746d43af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <trigger display_value="">9551662c475121104a908a5f746d43af</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=eee89ae0475121104a908a5f746d4340"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create Parent Child Relationship</description>
+        <internal_name>create_parent_child_relationship</internal_name>
+        <label_cache>[{"name":"flow_variable.last_name","label":"Flow Variables➛Last Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"36fc08ba-eab2-431d-b25c-f4455e0c914c"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.table_name","label":"2 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29079ade-5078-4f05-b610-9cea0d183ea8.record","label":"2 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.date_of_birth","label":"1 - Get Catalog Variables➛date_of_birth","reference":"","reference_display":"date_of_birth","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.parent_relationship_to_child","label":"1 - Get Catalog Variables➛parent_relationship_to_child","reference":"","reference_display":"parent_relationship_to_child","type":"choice","base_type":"choice","choices":[{"label":"Father","value":"father","order":100.0},{"label":"Mother","value":"mother","order":100.0},{"label":"Legal Guardian","value":"legal_guardian","order":100.0},{"label":"Grandparent","value":"grandparent","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.school_name","label":"1 - Get Catalog Variables➛school_name","reference":"","reference_display":"school_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.grade","label":"1 - Get Catalog Variables➛grade","reference":"","reference_display":"grade","type":"choice","base_type":"choice","choices":[{"label":"Kindergarden","value":"kinder","order":100.0},{"label":"1st","value":"1st","order":100.0},{"label":"2nd","value":"2nd","order":100.0},{"label":"3rd","value":"3rd","order":100.0},{"label":"4th","value":"4th","order":100.0},{"label":"5th","value":"5th","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.gender","label":"1 - Get Catalog Variables➛gender","reference":"","reference_display":"gender","type":"choice","base_type":"choice","choices":[{"label":"Boy","value":"boy","order":100.0},{"label":"Girl","value":"girl","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.students_name","label":"1 - Get Catalog Variables➛students_name","reference":"","reference_display":"students_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.home_address","label":"1 - Get Catalog Variables➛home_address","reference":"","reference_display":"home_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.mobile","label":"1 - Get Catalog Variables➛mobile","reference":"","reference_display":"mobile","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.sys_created_on","label":"1 - Get Catalog Variables➛sys_created_on","reference":"","reference_display":"sys_created_on","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e56a1281-b2d2-4e69-ad82-254f53cc0e23.parents_first_name","label":"1 - Get Catalog Variables➛parents_first_name","reference":"","reference_display":"parents_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3545acc5-e0cf-4cb1-b49d-7ec386ce2624.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name","label":"1 - Get Catalog Variables➛first_name","reference":"","reference_display":"first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name","label":"1 - Get Catalog Variables➛last_name","reference":"","reference_display":"last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone","label":"1 - Get Catalog Variables➛phone","reference":"","reference_display":"phone","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address","label":"1 - Get Catalog Variables➛home_address","reference":"","reference_display":"home_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_type","label":"1 - Get Catalog Variables➛home_type","reference":"","reference_display":"home_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"House","value":"house","order":100.0},{"label":"Apartment","value":"apartment","order":100.0},{"label":"Gated Community","value":"gated_community","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.parent_relationship_to_child","label":"1 - Get Catalog Variables➛parent_relationship_to_child","reference":"","reference_display":"parent_relationship_to_child","type":"choice","base_type":"choice","choices":[{"label":"Father","value":"father","order":100.0},{"label":"Mother","value":"mother","order":100.0},{"label":"Legal Guardian","value":"legal_guardian","order":100.0},{"label":"Grandparent","value":"grandparent","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.emergency_contact","label":"1 - Get Catalog Variables➛emergency_contact","reference":"","reference_display":"emergency_contact","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name","label":"1 - Get Catalog Variables➛students_first_name","reference":"","reference_display":"students_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name","label":"1 - Get Catalog Variables➛students_last_name","reference":"","reference_display":"students_last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender","label":"1 - Get Catalog Variables➛gender","reference":"","reference_display":"gender","type":"choice","base_type":"choice","choices":[{"label":"Boy","value":"boy","order":100.0},{"label":"Girl","value":"girl","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth","label":"1 - Get Catalog Variables➛date_of_birth","reference":"","reference_display":"date_of_birth","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade","label":"1 - Get Catalog Variables➛grade","reference":"","reference_display":"grade","type":"choice","base_type":"choice","choices":[{"label":"Kinder","value":"kinder","order":100.0},{"label":"1st","value":"1st","order":100.0},{"label":"2nd","value":"2nd","order":100.0},{"label":"3rd","value":"3rd","order":100.0},{"label":"4th","value":"4th","order":100.0},{"label":"5th","value":"5th","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name","label":"1 - Get Catalog Variables➛school_name","reference":"","reference_display":"school_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address","label":"1 - Get Catalog Variables➛school_address","reference":"","reference_display":"school_address","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.pick_up_time","label":"1 - Get Catalog Variables➛pick_up_time","reference":"","reference_display":"pick_up_time","type":"choice","base_type":"choice","choices":[{"label":"Morning Pickup","value":"morning_pickup","order":100.0},{"label":"Afternoon Pickup","value":"afternoon_pickup","order":100.0},{"label":"Morning and Afternoon","value":"morning_and_afternoon","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.pickup_location","label":"1 - Get Catalog Variables➛pickup_location","reference":"","reference_display":"pickup_location","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.drop_off_location","label":"1 - Get Catalog Variables➛drop_off_location","reference":"","reference_display":"drop_off_location","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.how_did_your_hear_about_us","label":"1 - Get Catalog Variables➛how_did_your_hear_about_us","reference":"","reference_display":"how_did_your_hear_about_us","type":"choice","base_type":"choice","choices":[{"label":"Facebook","value":"facebook","order":100.0},{"label":"Instagram","value":"instagram","order":100.0},{"label":"Website","value":"website","order":100.0},{"label":"Friend / Relative","value":"friend_relative","order":100.0},{"label":"School","value":"school","order":100.0},{"label":"Other Social Media","value":"other_social_media","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"09d66444-10e0-4fa5-8458-8f84c42e5c1b.comment","label":"1 - Get Catalog Variables➛comment","reference":"","reference_display":"comment","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.record","label":"4 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.table_name","label":"4 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.__action_status__","label":"4 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a36f7ad8-2b3f-401d-aef7-856626ee3fca.__dont_treat_as_error__","label":"4 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.Record","label":"2 - Look Up Record➛Parent Record","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.Table","label":"2 - Look Up Record➛Parent Table","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.record","label":"8 - Create Record➛Parent Record","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.table_name","label":"8 - Create Record➛Parent Table","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.__action_status__","label":"8 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"618261f5-82a8-4e47-8b79-941a80e23805.__dont_treat_as_error__","label":"8 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.record","label":"6 - Create Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.table_name","label":"6 - Create Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.__action_status__","label":"6 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.__dont_treat_as_error__","label":"6 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.record","label":"5 - Create Record➛Relationship Record","reference":"x_407566_adventu_0_relationship","reference_display":"Relationship","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.table_name","label":"5 - Create Record➛Relationship Table","reference":"x_407566_adventu_0_relationship","reference_display":"Relationship","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be2cfa09-23da-420c-8ecc-189e0cbf284c.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"732e5362-b539-4e29-964c-067065717f5d.answer","label":"5 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"reference","base_type":"reference","attributes":{}},{"name":"732e5362-b539-4e29-964c-067065717f5d.table_name","label":"5 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"table_name","base_type":"table_name","attributes":{}},{"name":"6723b291-7d54-4176-968e-7476a39c26f2.answer","label":"5 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"reference","base_type":"reference","attributes":{}},{"name":"6723b291-7d54-4176-968e-7476a39c26f2.table_name","label":"5 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_6022813047d921104a908a5f746d4369","reference_display":"Result","type":"table_name","base_type":"table_name","attributes":{}},{"name":"cfeed7dd-54de-4091-8100-a25bbe2b8faa.record.gender","label":"6 - Create Record➛Student Record➛Gender","reference":"","reference_display":"Gender","type":"string","base_type":"string","parent_table_name":"x_407566_adventu_0_student","column_name":"gender"},{"name":"7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.__action_status__.code","label":"2➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"1d670c77-9302-4c20-9d68-df445065a445.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.record","label":"9 - Create Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.table_name","label":"9 - Create Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.__action_status__","label":"9 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cfae4936-a430-411b-ae57-6a509ddb0d7a.__dont_treat_as_error__","label":"9 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.Record","label":"4 - Look Up Record➛Student Record","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.Table","label":"4 - Look Up Record➛Student Table","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.status","label":"4➛Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3a10a32d-77ba-4dda-972c-54e4070af4b1.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Create Parent Child Relationship</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Parent Child Relationship">eee89ae0475121104a908a5f746d4340</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8151662c475121104a908a5f746d4319</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8151662c475121104a908a5f746d4319"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8151662c475121104a908a5f746d4319"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8151662c475121104a908a5f746d4319^sys_idNOT IN1151662c475121104a908a5f746d4384"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>1151662c475121104a908a5f746d4384</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:33</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1151662c475121104a908a5f746d4384"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8151662c475121104a908a5f746d4319"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8151662c475121104a908a5f746d4319^sys_idNOT IN8551662c475121104a908a5f746d431a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8151662c475121104a908a5f746d4319</id>
+        <name>Create Parent Child Relationship</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>8551662c475121104a908a5f746d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8551662c475121104a908a5f746d431a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8151662c475121104a908a5f746d4319^sys_idNOT IN0d51662c475121104a908a5f746d431b,4d51662c475121104a908a5f746d4341"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</model>
+        <model_id>8151662c475121104a908a5f746d4319</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>0d51662c475121104a908a5f746d431b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</model>
+        <model_id>8151662c475121104a908a5f746d4319</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>4d51662c475121104a908a5f746d4341</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=8151662c475121104a908a5f746d4319"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8151662c475121104a908a5f746d4319"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8151662c475121104a908a5f746d4319^sys_idNOT IN6e0cc5f847d921104a908a5f746d43c9,7f978d7447d921104a908a5f746d4306,7f978d7447d921104a908a5f746d430d,7f978d7447d921104a908a5f746d4312,e20cc5f847d921104a908a5f746d43c0,f3974d7447d921104a908a5f746d43fc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>9</order>
+        <parent_ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>6e0cc5f847d921104a908a5f746d43c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>cfae4936-a430-411b-ae57-6a509ddb0d7a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e0cc5f847d921104a908a5f746d43c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e0cc5f847d921104a908a5f746d43c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>620cc5f847d921104a908a5f746d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e0cc5f847d921104a908a5f746d43c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6e0cc5f847d921104a908a5f746d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>2e0cc5f847d921104a908a5f746d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6e0cc5f847d921104a908a5f746d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>ee0cc5f847d921104a908a5f746d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}^birthdate={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth}}^gender={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender}}^grade={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^school_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name}}^school_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e0cc5f847d921104a908a5f746d43c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e0cc5f847d921104a908a5f746d43c9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>7f978d7447d921104a908a5f746d4306</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f978d7447d921104a908a5f746d4306"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f978d7447d921104a908a5f746d4306</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>7b978d7447d921104a908a5f746d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <value>x_407566_adventu_0_parent</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f978d7447d921104a908a5f746d4306</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>de0cc5f847d921104a908a5f746d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f978d7447d921104a908a5f746d4306"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>7f978d7447d921104a908a5f746d4306</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>37978d7447d921104a908a5f746d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name}}^email={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.email}}^ORmobile={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7f978d7447d921104a908a5f746d4306</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>f7978d7447d921104a908a5f746d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>7f978d7447d921104a908a5f746d4306</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>5e0cc5f847d921104a908a5f746d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f978d7447d921104a908a5f746d4306"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f978d7447d921104a908a5f746d4306"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>8</order>
+        <parent_ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>7f978d7447d921104a908a5f746d430d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>618261f5-82a8-4e47-8b79-941a80e23805</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f978d7447d921104a908a5f746d430d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f978d7447d921104a908a5f746d430d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>73978d7447d921104a908a5f746d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <value>x_407566_adventu_0_parent</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f978d7447d921104a908a5f746d430d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7f978d7447d921104a908a5f746d430d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>3f978d7447d921104a908a5f746d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7f978d7447d921104a908a5f746d430d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>ff978d7447d921104a908a5f746d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.last_name}}^email={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.email}}^mobile={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.phone}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^home_type={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_type}}^=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f978d7447d921104a908a5f746d430d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f978d7447d921104a908a5f746d430d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>6</order>
+        <parent_ui_id>97d44f57-26e5-40e2-b513-85ced6ede923</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>7f978d7447d921104a908a5f746d4312</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>cfeed7dd-54de-4091-8100-a25bbe2b8faa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f978d7447d921104a908a5f746d4312"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f978d7447d921104a908a5f746d4312</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>73978d7447d921104a908a5f746d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f978d7447d921104a908a5f746d4312"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7f978d7447d921104a908a5f746d4312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>3f978d7447d921104a908a5f746d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7f978d7447d921104a908a5f746d4312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>ff978d7447d921104a908a5f746d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}^birthdate={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.date_of_birth}}^gender={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.gender}}^grade={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.grade}}^home_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.home_address}}^school_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_name}}^school_address={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.school_address}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f978d7447d921104a908a5f746d4312"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f978d7447d921104a908a5f746d4312"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>4</order>
+        <parent_ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>e20cc5f847d921104a908a5f746d43c0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>3a10a32d-77ba-4dda-972c-54e4070af4b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e20cc5f847d921104a908a5f746d43c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e20cc5f847d921104a908a5f746d43c0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>ee0cc5f847d921104a908a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <value>x_407566_adventu_0_student</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e20cc5f847d921104a908a5f746d43c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e20cc5f847d921104a908a5f746d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>aa0cc5f847d921104a908a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_first_name}}^last_name={{09d66444-10e0-4fa5-8458-8f84c42e5c1b.students_last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e20cc5f847d921104a908a5f746d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>6e0cc5f847d921104a908a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e20cc5f847d921104a908a5f746d43c0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e20cc5f847d921104a908a5f746d43c0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>f3974d7447d921104a908a5f746d43fc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>09d66444-10e0-4fa5-8458-8f84c42e5c1b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f3974d7447d921104a908a5f746d43fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f3974d7447d921104a908a5f746d43fc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>3f974d7447d921104a908a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <value>4ef53cb0479921104a908a5f746d43bc:item_option_new,48c638f0479921104a908a5f746d43ec:item_option_new,0a07b8b0479921104a908a5f746d439c:item_option_new,3c17fcf0479921104a908a5f746d435c:item_option_new,99473034479921104a908a5f746d43a1:item_option_new,8e6830b4479921104a908a5f746d4377:item_option_new,7859fcb4479921104a908a5f746d43ff:item_option_new,3eb9b4f4479921104a908a5f746d43ea:item_option_new,1c1a3cf4479921104a908a5f746d43f9:item_option_new,e66af038479921104a908a5f746d4316:item_option_new,c68a7438479921104a908a5f746d4390:item_option_new,9eaa3838479921104a908a5f746d4375:item_option_new,a4fa7c38479921104a908a5f746d4372:item_option_new,f17b7478479921104a908a5f746d43e9:item_option_new,7aab7878479921104a908a5f746d43d7:item_option_new,dbbbf878479921104a908a5f746d4383:item_option_new,b11cf0b8479921104a908a5f746d4344:item_option_new,2f3cb4b8479921104a908a5f746d4383:item_option_new,e86c78b8479921104a908a5f746d437b:item_option_new,617cf8b8479921104a908a5f746d434e:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f3974d7447d921104a908a5f746d43fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>ff974d7447d921104a908a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <value>c7a70c3847d521104a908a5f746d4355</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3974d7447d921104a908a5f746d43fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>f3974d7447d921104a908a5f746d43fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>37974d7447d921104a908a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>f3974d7447d921104a908a5f746d43fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>bb974d7447d921104a908a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>f3974d7447d921104a908a5f746d43fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:32:13</sys_created_on>
+        <sys_id>f7974d7447d921104a908a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:32:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3974d7447d921104a908a5f746d43fc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f3974d7447d921104a908a5f746d43fc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8151662c475121104a908a5f746d4319"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8151662c475121104a908a5f746d4319^sys_idNOT IN2a0cc5f847d921104a908a5f746d43d4,a20cc5f847d921104a908a5f746d43cc,aa0cc5f847d921104a908a5f746d43d0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">710c85f847d921104a908a5f746d43d1</block>
+        <comment/>
+        <connected_to>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>2a0cc5f847d921104a908a5f746d43d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>07d6eae2-65f5-497f-b35e-3870f755041a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2a0cc5f847d921104a908a5f746d43d4"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2a0cc5f847d921104a908a5f746d43d4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a0cc5f847d921104a908a5f746d43d4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">710c85f847d921104a908a5f746d43b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>a20cc5f847d921104a908a5f746d43cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a20cc5f847d921104a908a5f746d43cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a20cc5f847d921104a908a5f746d43cc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>ae0cc5f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <value>Record Found</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a20cc5f847d921104a908a5f746d43cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a20cc5f847d921104a908a5f746d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>2e0cc5f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7ca7ccb3-ccfb-4efe-b807-a6aac3aa7109.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>a20cc5f847d921104a908a5f746d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>6a0cc5f847d921104a908a5f746d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a20cc5f847d921104a908a5f746d43cc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a20cc5f847d921104a908a5f746d43cc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f10c85f847d921104a908a5f746d43cc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Parent Child Relationship">8151662c475121104a908a5f746d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b6e36348-8ac9-49d6-85bf-2d1c9e3a59dc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>aa0cc5f847d921104a908a5f746d43d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <ui_id>97d44f57-26e5-40e2-b513-85ced6ede923</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa0cc5f847d921104a908a5f746d43d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>aa0cc5f847d921104a908a5f746d43d0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>2e0cc5f847d921104a908a5f746d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <value>is not the same student</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aa0cc5f847d921104a908a5f746d43d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>aa0cc5f847d921104a908a5f746d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>aa0cc5f847d921104a908a5f746d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{3a10a32d-77ba-4dda-972c-54e4070af4b1.status}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>aa0cc5f847d921104a908a5f746d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-26 04:51:31</sys_created_on>
+        <sys_id>e60cc5f847d921104a908a5f746d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-26 04:51:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=aa0cc5f847d921104a908a5f746d43d0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa0cc5f847d921104a908a5f746d43d0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8151662c475121104a908a5f746d4319^sys_idNOT IN5d51662c475121104a908a5f746d4384,d951662c475121104a908a5f746d4384,dd51662c475121104a908a5f746d4384"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8151662c475121104a908a5f746d4319</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>5d51662c475121104a908a5f746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+        <transform_compositions>[{"id":"84959031c37220103a334077d840dd8f","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="first_item">b09458fdc33220103a334077d840ddd6</transform_definition_id>
+        <ui_id>9dc44a24-5677-491a-8c12-eeec7895dd98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8151662c475121104a908a5f746d4319</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e56a1281-b2d2-4e69-ad82-254f53cc0e23.students_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>d951662c475121104a908a5f746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8151662c475121104a908a5f746d4319</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>74ffe473-adec-49c5-af5f-6e7c8026d3d1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>dd51662c475121104a908a5f746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+        <transform_compositions>[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":"\" \"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="split">2f3a1377c72333003884f80bf4c26038</transform_definition_id>
+        <ui_id>8ef50336-fbec-404c-86e6-8d368a44ee32</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8151662c475121104a908a5f746d4319"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319^sys_idNOT IN0551662c475121104a908a5f746d433e,c151662c475121104a908a5f746d4346"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>0551662c475121104a908a5f746d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 16:25:41</sys_created_on>
+        <sys_id>c151662c475121104a908a5f746d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 16:25:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8151662c475121104a908a5f746d4319"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8151662c475121104a908a5f746d4319"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8151662c475121104a908a5f746d4319"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>eee89ae0475121104a908a5f746d4340</sys_id>
+        <latest_snapshot>8151662c475121104a908a5f746d4319</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch4a-01-03-2023_01-11-2023_0813.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>
