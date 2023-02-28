@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="active" table="x_407566_adventu_0_driver">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="active" table="x_407566_adventu_0_school">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -27,10 +27,10 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_407566_adventu_0_driver</name>
+        <name>x_407566_adventu_0_school</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-20 04:22:49</sys_created_on>
+        <sys_created_on>2023-02-28 05:07:28</sys_created_on>
         <sys_name>Active</sys_name>
         <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name>sys_dictionary_x_407566_adventu_0_driver_active</sys_update_name>
+        <sys_update_name>sys_dictionary_x_407566_adventu_0_school_active</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-28 05:08:23</sys_updated_on>
+        <sys_updated_on>2023-02-28 05:07:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
