@@ -25,5 +25,7 @@ Setting up Project for people to Fork and branch the project in the live Lab.
 ## Contribution ideas
 - Automate task creation for Schedule Events
 - Create an experience to be able to manage the Schedule
-- Bring in Student Data from other sources
+- Create Vehicle Maintenance Tasks 
 - Create a way to track Trip counts
+- Create a Plan Pickup Route
+- Create a Parent's Page to manage Account Settings
