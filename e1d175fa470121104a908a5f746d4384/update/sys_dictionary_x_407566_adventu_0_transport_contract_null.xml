@@ -52,10 +52,10 @@
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>sys_dictionary_x_407566_adventu_0_transport_contract_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 10:48:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:48</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

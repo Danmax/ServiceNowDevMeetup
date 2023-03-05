@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_407566_adventu_0_adventure_express_search_profile_default_spell_check_dictionary">b41ca146471121104a908a5f746d43e8</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Adventure Express search profile">0c0c2d06ed11211009c99117fc062bfa</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:53</sys_created_on>
+        <sys_id>701ca146471121104a908a5f746d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_adventure_express_search_profile_default_spell_check_dictionary.Adventure Express search profile</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_701ca146471121104a908a5f746d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:53</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
