@@ -10,6 +10,7 @@
         <dispatched_events>840c2d060511211099e9627f5cb5ecfb</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>

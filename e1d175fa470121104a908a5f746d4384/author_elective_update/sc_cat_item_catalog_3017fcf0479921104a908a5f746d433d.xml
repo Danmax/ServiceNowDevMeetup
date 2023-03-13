@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>62985a20475121104a908a5f746d43ae</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-26 03:19:55</sys_created_on>
         <sys_id>fc17fcf0479921104a908a5f746d433f</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>7417fcf0c499211056e282ca4021c93f:-22203041</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Student Transportation">7c277034479921104a908a5f746d431d</sys_audit_delete>
+        <sys_audit_delete display_value="">7c277034479921104a908a5f746d431d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-26 03:20:12</sys_created_on>

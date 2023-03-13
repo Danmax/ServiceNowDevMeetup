@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Birthdate</column_label>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>sys_dictionary_x_407566_adventu_0_student_birthdate</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-20 02:38:54</sys_updated_on>
+        <sys_updated_on>2023-03-12 23:03:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

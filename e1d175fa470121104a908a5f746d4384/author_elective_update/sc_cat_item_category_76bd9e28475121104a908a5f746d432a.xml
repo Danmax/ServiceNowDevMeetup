@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>62985a20475121104a908a5f746d43ae</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-25 16:09:57</sys_created_on>
         <sys_id>76bd9e28475121104a908a5f746d432e</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>fabd9e28b051211022c502e40f36a52d:2049170767</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Transportation Registration">99ed5268475121104a908a5f746d4343</sys_audit_delete>
+        <sys_audit_delete display_value="">99ed5268475121104a908a5f746d4343</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-25 16:10:41</sys_created_on>

@@ -8,7 +8,7 @@
         <name>Search</name>
         <optional_parameters>searchTerm</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>search</route_type>
         <screen_type display_value="Search">0c0c2d0626112110f380c3306141b2f9</screen_type>

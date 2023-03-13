@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>62985a20475121104a908a5f746d43ae</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-25 15:59:18</sys_created_on>
         <sys_id>3e4b92a4475121104a908a5f746d43f8</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>b24b92a483512110bd815027952e58f8:-3066615</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Transportation Registration">2b7b96a4475121104a908a5f746d43db</sys_audit_delete>
+        <sys_audit_delete display_value="">2b7b96a4475121104a908a5f746d43db</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-25 16:00:10</sys_created_on>

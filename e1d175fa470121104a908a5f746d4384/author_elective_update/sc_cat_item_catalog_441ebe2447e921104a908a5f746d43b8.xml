@@ -41,7 +41,7 @@
         <update_guid_history>001ebe2436e92110a30c28f08cb65ebb:1004163163</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Transport Contract">8e1efe2447e921104a908a5f746d4397</sys_audit_delete>
+        <sys_audit_delete display_value="">8e1efe2447e921104a908a5f746d4397</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-10 04:47:03</sys_created_on>

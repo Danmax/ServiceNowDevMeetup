@@ -13,7 +13,7 @@
         <label>Maintenance Record</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_407566_adventu_0_maintenance_record</name>
-        <number_ref display_value="MAINT">2150af9547d121104a908a5f746d43d3</number_ref>
+        <number_ref display_value="">2150af9547d121104a908a5f746d43d3</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">0c0c2d06d51121100e246ec05fb6b3f5</canvas>
-        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component display_value="now-heading">3a64f550256090d9578ede76158e899c</component>
         <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
         <h>2</h>
         <name/>

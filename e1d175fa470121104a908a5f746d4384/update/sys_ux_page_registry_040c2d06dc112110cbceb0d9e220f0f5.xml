@@ -7,7 +7,7 @@
         <page/>
         <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
         <path>adventure-express</path>
-        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
         <sys_class_name>sys_ux_page_registry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-02 04:23:35</sys_created_on>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3292713e470121104a908a5f746d439c" label="Student" max_length="40" name="x_407566_adventu_0_student" text_index="true" type="collection">
-        <element default="glidefunction:datediff(sys_created_on,birthdate)" function_definition="glidefunction:datediff(sys_created_on,birthdate)" function_field="true" label="Age" max_length="40" name="age" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" formula="IF( MONTH(birthdate) &gt; MONTH(NOW()) , SUBTRACT(SUBTRACT(YEAR(NOW()  ) ,1), YEAR(birthdate) ) , SUBTRACT(YEAR(NOW()  ), YEAR(birthdate) ) )" label="Age" max_length="3" name="age" type="string" virtual="true" virtual_type="formula"/>
         <element label="Birthdate" max_length="40" name="birthdate" type="glide_date"/>
         <element display="true" label="First Name" max_length="40" name="first_name" type="string"/>
-        <element default="&#10;" function_definition="&#10;" function_field="true" label="Full Name" max_length="40" name="full_name" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;CONCATENATE(first_name , &quot; &quot;, last_name)&#13;&#10;})(current);" formula="CONCATENATE(first_name , &quot; &quot;, last_name)" label="Full Name" max_length="140" name="full_name" type="string" virtual="true" virtual_type="formula"/>
         <element label="Gender" max_length="40" name="gender" type="string"/>
         <element label="Grade" max_length="40" name="grade" type="string"/>
         <element label="Home Address" max_length="40" name="home_address" type="string"/>
         <element label="Known Allergies" max_length="40" name="known_allergies" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
-        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Middle Name" max_length="40" name="middle_name" type="string" virtual_type="formula"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Parent 2" max_length="32" name="parent_2" reference="x_407566_adventu_0_parent" type="reference"/>
         <element label="Photo" max_length="40" name="photo" type="user_image"/>
@@ -22,6 +22,9 @@
         </index>
         <index name="index2">
             <element name="primary"/>
+        </index>
+        <index name="index3">
+            <element name="school_name"/>
         </index>
     </element>
 </database>

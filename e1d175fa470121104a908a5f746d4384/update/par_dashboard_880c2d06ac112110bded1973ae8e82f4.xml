@@ -4,6 +4,7 @@
         <certified>false</certified>
         <description/>
         <experience/>
+        <grid/>
         <name>Adventure Express</name>
         <sys_class_name>par_dashboard</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-02 04:23:35</sys_updated_on>
         <sys_ux_app_config/>
+        <sys_ux_app_route/>
         <sys_ux_macroponent/>
         <sys_ux_screen/>
         <sys_ux_screen_type/>

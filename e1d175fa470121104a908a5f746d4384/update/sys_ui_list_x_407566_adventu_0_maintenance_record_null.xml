@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_407566_adventu_0_maintenance_record" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>454e041147a921104a908a5f746d4375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>494e041147a921104a908a5f746d4375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>4d4e041147a921104a908a5f746d4375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>414e041147a921104a908a5f746d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_completed</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>454e041147a921104a908a5f746d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>details</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>494e041147a921104a908a5f746d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>4d4e041147a921104a908a5f746d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>414e041147a921104a908a5f746d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mileage</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>454e041147a921104a908a5f746d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_by</element>
+            <list_id display_value="x_407566_adventu_0_maintenance_record" element="NULL" name="x_407566_adventu_0_maintenance_record" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">894e041147a921104a908a5f746d4374</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_id>494e041147a921104a908a5f746d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_407566_adventu_0_maintenance_record</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 23:54:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>894e041147a921104a908a5f746d4374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_adventu_0_maintenance_record</sys_name>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_ui_list_x_407566_adventu_0_maintenance_record_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 23:54:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

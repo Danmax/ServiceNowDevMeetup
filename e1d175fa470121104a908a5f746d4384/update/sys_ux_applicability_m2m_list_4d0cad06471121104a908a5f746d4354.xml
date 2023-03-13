@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Audience for app adventure-express">300c6d06471121104a908a5f746d43d7</applicability>
-        <list display_value="All">010cad06471121104a908a5f746d4353</list>
+        <list/>
         <order>100</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
