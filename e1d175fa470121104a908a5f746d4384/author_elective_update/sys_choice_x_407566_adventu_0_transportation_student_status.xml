@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="student_status" table="x_407566_adventu_0_transportation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>student_status</element>
+            <name>x_407566_adventu_0_transportation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-13 05:29:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>student_status</sys_name>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_choice_x_407566_adventu_0_transportation_student_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-13 05:29:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>student_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>At Home</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_transportation</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-13 05:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-13 05:29:34</sys_updated_on>
+            <value>at_home</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>student_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Bus</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_transportation</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-13 05:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-13 05:29:34</sys_updated_on>
+            <value>on_bus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>student_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>At School</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_transportation</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-13 05:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-13 05:29:34</sys_updated_on>
+            <value>at_school</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>student_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>At Center</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_transportation</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-13 05:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-13 05:29:34</sys_updated_on>
+            <value>at_center</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
