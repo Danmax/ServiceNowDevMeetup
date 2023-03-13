@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="DELETE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Maintenance Table</name>
+        <retention_policy display_value="Two years">04f129e57792f010be280d892c5a99d9</retention_policy>
+        <source>x_407566_adventu_0_maintenance</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 01:00:45</sys_created_on>
+        <sys_id>1c17a5a547ad61104a908a5f746d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance Table</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>ais_datasource_1c17a5a547ad61104a908a5f746d4347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 01:00:45</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>ais_datasource_1c17a5a547ad61104a908a5f746d4347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource"><ais_datasource action="INSERT_OR_UPDATE"><active>true</active><filter/><force_late_binding>false</force_late_binding><name>Maintenance Table</name><retention_policy display_value="Two years">04f129e57792f010be280d892c5a99d9</retention_policy><source>x_407566_adventu_0_maintenance</source><sys_class_name>ais_datasource</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-13 01:00:45</sys_created_on><sys_id>1c17a5a547ad61104a908a5f746d4347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Maintenance Table</sys_name><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>ais_datasource_1c17a5a547ad61104a908a5f746d4347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-13 01:00:45</sys_updated_on><type>internal</type></ais_datasource></record_update>]]></payload>
+        <payload_hash>1806277385</payload_hash>
+        <record_name>Maintenance Table</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 01:00:45</sys_created_on>
+        <sys_id>1017a5a547ad61104a908a5f746d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d87beab60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 01:00:45</sys_updated_on>
+        <type>AI Search Indexed Source</type>
+        <update_guid>5417a5a5b8ad6110bc5a0d011e78e049</update_guid>
+        <update_guid_history>5417a5a5b8ad6110bc5a0d011e78e049:1806277385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Maintenance Table">ef49b22d47e1a1104a908a5f746d43dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 07:00:03</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource">ais_datasource</sys_db_object>
+        <sys_id>29698f3c2e68437dab6a5d03f55ecff9</sys_id>
+        <sys_metadata>1c17a5a547ad61104a908a5f746d4347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance Table</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>ais_datasource_1c17a5a547ad61104a908a5f746d4347</sys_update_name>
+        <sys_update_version display_value="ais_datasource_1c17a5a547ad61104a908a5f746d4347">1017a5a547ad61104a908a5f746d434a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 07:00:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

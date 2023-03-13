@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="DELETE">
+        <active>true</active>
+        <ais_search_source display_value="Transport Schedule">b41ca146471121104a908a5f746d43d4</ais_search_source>
+        <label>Transport Schedule</label>
+        <name>Transport Schedule</name>
+        <order>100</order>
+        <search_context_config display_value="Adventure Express AI Search Configuration">c40c2d06e11121109a6a2d2e21e9d0f6</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:53</sys_created_on>
+        <sys_id>741ca146471121104a908a5f746d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transport Schedule</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_search_filter_741ca146471121104a908a5f746d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:53</sys_updated_on>
+    </sys_search_filter>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_search_filter_741ca146471121104a908a5f746d43fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Transport Schedule">b41ca146471121104a908a5f746d43d4</ais_search_source>
+        <label>Transport Schedule</label>
+        <name>Transport Schedule</name>
+        <order>100</order>
+        <search_context_config display_value="Adventure Express AI Search Configuration">c40c2d06e11121109a6a2d2e21e9d0f6</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:53</sys_created_on>
+        <sys_id>741ca146471121104a908a5f746d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transport Schedule</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_search_filter_741ca146471121104a908a5f746d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:53</sys_updated_on>
+    </sys_search_filter>
+</record_update>]]></payload>
+        <payload_hash>1365382858</payload_hash>
+        <record_name>Transport Schedule</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:50:55</sys_created_on>
+        <sys_id>4a1b36cd472521104a908a5f746d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cc08160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:50:55</sys_updated_on>
+        <type>Navigation Tab</type>
+        <update_guid>0a1b36cddb2521108b1cb5f36d959f5d</update_guid>
+        <update_guid_history>0a1b36cddb2521108b1cb5f36d959f5d:1365382858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 07:00:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_search_filter">sys_search_filter</sys_db_object>
+        <sys_id>f2abceaaec7746169aefc5a87ce6dac4</sys_id>
+        <sys_metadata>741ca146471121104a908a5f746d43fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transport Schedule</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_search_filter_741ca146471121104a908a5f746d43fe</sys_update_name>
+        <sys_update_version display_value="sys_search_filter_741ca146471121104a908a5f746d43fe">4a1b36cd472521104a908a5f746d435d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 07:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

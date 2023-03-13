@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="school" label="School" language="en" table="x_407566_adventu_0_transportation">
+    <sys_documentation element="parent_1" label="Parent 1" language="en" table="x_407566_adventu_0_student">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>school</element>
+            <element>parent_1</element>
             <help/>
             <hint/>
-            <label>School</label>
+            <label>Parent 1</label>
             <language>en</language>
-            <name>x_407566_adventu_0_transportation</name>
+            <name>x_407566_adventu_0_student</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-13 05:29:32</sys_created_on>
+            <sys_created_on>2023-03-13 17:28:14</sys_created_on>
             <sys_mod_count>3</sys_mod_count>
-            <sys_name>School</sys_name>
+            <sys_name>Parent 1</sys_name>
             <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
             <sys_policy/>
             <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-            <sys_update_name>sys_documentation_x_407566_adventu_0_transportation_school_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_407566_adventu_0_student_parent_1_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-13 05:29:33</sys_updated_on>
+            <sys_updated_on>2023-03-13 17:28:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
