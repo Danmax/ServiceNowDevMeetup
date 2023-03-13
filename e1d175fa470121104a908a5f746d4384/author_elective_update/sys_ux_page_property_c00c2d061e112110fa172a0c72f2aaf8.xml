@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Adventure Express">040c2d06dc112110cbceb0d9e220f0f5</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c00c2d061e112110fa172a0c72f2aaf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ux_page_property_c00c2d061e112110fa172a0c72f2aaf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:35</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_407566_adventu_0.040c2d06dc112110cbceb0d9e220f0f5.root.ribbonConfigId</unique_name>
+        <value>c00c2d0600112110d625b37c8853e2f4</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=c00c2d061e112110fa172a0c72f2aaf8"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_ux_page_property_c00c2d061e112110fa172a0c72f2aaf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Adventure Express">040c2d06dc112110cbceb0d9e220f0f5</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c00c2d061e112110fa172a0c72f2aaf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ux_page_property_c00c2d061e112110fa172a0c72f2aaf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:35</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_407566_adventu_0.040c2d06dc112110cbceb0d9e220f0f5.root.ribbonConfigId</unique_name>
+        <value>c00c2d0600112110d625b37c8853e2f4</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=c00c2d061e112110fa172a0c72f2aaf8"/>
+</record_update>]]></payload>
+        <payload_hash>-367159320</payload_hash>
+        <record_name>ribbonConfigId</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:51:18</sys_created_on>
+        <sys_id>732bb201476521104a908a5f746d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cc63a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:51:18</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>332bb201aa65211073cedb6a08b2f74b</update_guid>
+        <update_guid_history>332bb201aa65211073cedb6a08b2f74b:-367159320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 00:54:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1e31358f8afc4d809f8be2db6ad88400</sys_id>
+        <sys_metadata>c00c2d061e112110fa172a0c72f2aaf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_c00c2d061e112110fa172a0c72f2aaf8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_c00c2d061e112110fa172a0c72f2aaf8">732bb201476521104a908a5f746d434b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 00:54:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
