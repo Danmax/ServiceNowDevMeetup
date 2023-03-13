@@ -4,6 +4,7 @@
         <element display="true" label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Home Address" max_length="140" name="home_address" type="string"/>
         <element label="Home Type" max_length="40" name="home_type" type="string"/>
+        <element label="Household" max_length="32" name="household" reference="core_company" type="reference"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
         <element label="License Number" max_length="40" name="license_number" type="string"/>
         <element label="Mobile" max_length="40" name="mobile" type="phone_number_e164"/>
@@ -14,9 +15,12 @@
         <element label="user" max_length="32" name="user" reference="sys_user" type="reference"/>
         <element label="Work Phone" max_length="40" name="work_phone" type="phone_number_e164"/>
         <index name="index">
-            <element name="spouse"/>
+            <element name="household"/>
         </index>
         <index name="index2">
+            <element name="spouse"/>
+        </index>
+        <index name="index3">
             <element name="user"/>
         </index>
     </element>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>Adventure Express AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="adventure-express search profile">1e07a1a583ad6110691c93d36964425f</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 01:00:38</sys_created_on>
+        <sys_id>9607a1a5f6ad6110f8031cb734e0cd51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventure Express AI Search Configuration</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_search_context_config_9607a1a5f6ad6110f8031cb734e0cd51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 01:00:38</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=9607a1a5f6ad6110f8031cb734e0cd51"/>
+</record_update>
