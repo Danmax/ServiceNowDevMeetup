@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Maintenance</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Maintenance</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a67056e4f90211108c8bd16244dfe708</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 04:30:57</sys_created_on>
+        <sys_id>126abe2047e921104a908a5f746d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_wizard_answer_126abe2047e921104a908a5f746d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 04:30:57</sys_updated_on>
+        <table/>
+        <target_url>x_407566_adventu_0_maintenance.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_wizard_answer_126abe2047e921104a908a5f746d43ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Maintenance</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Maintenance</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a67056e4f90211108c8bd16244dfe708</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 04:30:57</sys_created_on>
+        <sys_id>126abe2047e921104a908a5f746d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_wizard_answer_126abe2047e921104a908a5f746d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 04:30:57</sys_updated_on>
+        <table/>
+        <target_url>x_407566_adventu_0_maintenance.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>142105285</payload_hash>
+        <record_name>Maintenance</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:51:20</sys_created_on>
+        <sys_id>d03bf201476521104a908a5f746d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cc6c010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:51:20</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>903bf201e46521104f0868856800475f</update_guid>
+        <update_guid_history>903bf201e46521104f0868856800475f:142105285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 03:34:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>3a7ed3e3adaa49e8b322c6707541fda9</sys_id>
+        <sys_metadata>126abe2047e921104a908a5f746d43ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="Task">51a8a528a920211076daa554cb57d91f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_126abe2047e921104a908a5f746d43ef</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_126abe2047e921104a908a5f746d43ef">d03bf201476521104a908a5f746d435f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 03:34:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

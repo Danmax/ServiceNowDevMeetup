@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Transportation Contract">ddcf994747d9a1104a908a5f746d43a7</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-05 06:38:55</sys_created_on>
+        <sys_id>3bb7a54f47d9a1104a908a5f746d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Transportation Contract</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sc_cat_item_category_3bb7a54f47d9a1104a908a5f746d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 06:38:55</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sc_cat_item_category_3bb7a54f47d9a1104a908a5f746d439f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Transportation Contract">ddcf994747d9a1104a908a5f746d43a7</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-05 06:38:55</sys_created_on>
+        <sys_id>3bb7a54f47d9a1104a908a5f746d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Transportation Contract</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sc_cat_item_category_3bb7a54f47d9a1104a908a5f746d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 06:38:55</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>-1223989916</payload_hash>
+        <record_name>Can We Help You?.Transportation Contract</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:50:51</sys_created_on>
+        <sys_id>1d1bb2cd472521104a908a5f746d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cbf9ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:50:51</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>d91bb2cd47252110ce99ff720249ad73</update_guid>
+        <update_guid_history>d91bb2cd47252110ce99ff720249ad73:-1223989916</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Transportation Contract">d988522d4761a1104a908a5f746d43ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 04:36:49</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>8340367e10df447a807542ccdf045be4</sys_id>
+        <sys_metadata>3bb7a54f47d9a1104a908a5f746d439f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Transportation Contract</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_3bb7a54f47d9a1104a908a5f746d439f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_3bb7a54f47d9a1104a908a5f746d439f">1d1bb2cd472521104a908a5f746d4373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 04:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
