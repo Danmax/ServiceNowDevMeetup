@@ -1,5 +1,5 @@
 # Contributing
-
+# https://docs.google.com/document/d/1UMVbzZgR9h45U9jrqrNYZLA6AVp8RcAF/edit
 ## General requirements
 
 - Pull request descriptions must be explicit and descriptive to what is being changed.
