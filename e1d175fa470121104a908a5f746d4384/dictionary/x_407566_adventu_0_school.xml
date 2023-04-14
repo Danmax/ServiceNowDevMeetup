@@ -5,7 +5,7 @@
         <element label="Grades" max_length="40" name="grades" type="string"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Logo" max_length="40" name="logo" type="user_image"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="Primary Contact" max_length="32" name="primary_contact" reference="sys_user" type="reference"/>
         <element label="Type" max_length="40" name="type" type="string"/>

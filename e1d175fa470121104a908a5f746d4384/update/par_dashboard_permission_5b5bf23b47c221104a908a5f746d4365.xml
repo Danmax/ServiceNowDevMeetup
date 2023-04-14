@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Adventure Express">de5bb23b47c22110789258a840c2734e</dashboard>
+        <group/>
+        <role display_value="x_407566_adventu_0.driver" name="x_407566_adventu_0.driver">edd175fa470121104a908a5f746d43e9</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 03:26:46</sys_created_on>
+        <sys_id>5b5bf23b47c221104a908a5f746d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>de5bb23b47c22110789258a840c2734e</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>par_dashboard_permission_5b5bf23b47c221104a908a5f746d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 03:26:46</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-x_407566_adventu_0-1</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 03:26:44</sys_created_on>
+        <sys_id>da5bb23b3ac221101c79077133466b56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace-x 407566 adventu 0-1</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ui_view_da5bb23b3ac221101c79077133466b56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 03:26:44</sys_updated_on>
+        <title>Workspace-x 407566 adventu 0-1</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

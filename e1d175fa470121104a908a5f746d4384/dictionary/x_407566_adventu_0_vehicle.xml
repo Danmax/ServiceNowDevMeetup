@@ -5,6 +5,7 @@
         <element label="Make" max_length="40" name="make" type="string"/>
         <element label="Miles" max_length="40" name="miles" type="string"/>
         <element label="Model" max_length="40" name="model" type="string"/>
+        <element display="true" label="Name" max_length="140" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
         <element label="Type" max_length="40" name="type" type="string"/>
         <element label="VIN Number" max_length="40" name="vin_number" type="string"/>
