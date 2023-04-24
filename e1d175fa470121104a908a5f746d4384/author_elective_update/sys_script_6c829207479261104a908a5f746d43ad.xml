@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>cmn_location</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>getCoordinates</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//Get the address field value from the current record.
+var address = current.getValue("full_name"); //Replace address_field_name with the actual name of the address field on your table.
+
+//Use the Google Maps API to retrieve the latitude and longitude coordinates of the address.
+var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURIComponent(address) + "AIzaSyC6ozaCMA2p_u8aTTiBketTjF_fnG3R0c4";
+var gr = new sn_ws.RESTMessageV2();
+gr.setHttpMethod('get');
+gr.setEndpoint(url);
+var response = gr.execute();
+
+if(response.getStatusCode() == 200){
+  var responseBody = response.getBody();
+  var json = JSON.parse(responseBody);
+  
+  //Get the latitude and longitude coordinates from the API response and set them on the current record.
+  if(json.status == "OK"){
+    var location = json.results[0].geometry.location;
+    current.latitude_field_name = location.lat;
+    current.longitude_field_name = location.lng;
+	gs.info(location)
+  }
+}
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:48:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c829207479261104a908a5f746d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getCoordinates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_script_6c829207479261104a908a5f746d43ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:48:31</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=6c829207479261104a908a5f746d43ad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_script_6c829207479261104a908a5f746d43ad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmn_location&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;getCoordinates&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//Get the address field value from the current record.
+var address = current.getValue("full_name"); //Replace address_field_name with the actual name of the address field on your table.
+
+//Use the Google Maps API to retrieve the latitude and longitude coordinates of the address.
+var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURIComponent(address) + "AIzaSyC6ozaCMA2p_u8aTTiBketTjF_fnG3R0c4";
+var gr = new sn_ws.RESTMessageV2();
+gr.setHttpMethod('get');
+gr.setEndpoint(url);
+var response = gr.execute();
+
+if(response.getStatusCode() == 200){
+  var responseBody = response.getBody();
+  var json = JSON.parse(responseBody);
+  
+  //Get the latitude and longitude coordinates from the API response and set them on the current record.
+  if(json.status == "OK"){
+    var location = json.results[0].geometry.location;
+    current.latitude_field_name = location.lat;
+    current.longitude_field_name = location.lng;
+	gs.info(location)
+  }
+}
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 02:48:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6c829207479261104a908a5f746d43ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;getCoordinates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Adventure Express" source="x_407566_adventu_0"&gt;e1d175fa470121104a908a5f746d4384&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Adventure Express"&gt;e1d175fa470121104a908a5f746d4384&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6c829207479261104a908a5f746d43ad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 02:48:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6c829207479261104a908a5f746d43ad"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1357896999</payload_hash>
+        <record_name>getCoordinates</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:48:31</sys_created_on>
+        <sys_id>28829207479261104a908a5f746d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b129af2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:48:31</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>2c829207e09261103b325098927c05af</update_guid>
+        <update_guid_history>2c829207e09261103b325098927c05af:1357896999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:49:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>6ac2fdb688a94bd9af846c9788450bc9</sys_id>
+        <sys_metadata>6c829207479261104a908a5f746d43ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getCoordinates</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="Cmn Location">b4372d20a920211076daa554cb57d909</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_script_6c829207479261104a908a5f746d43ad</sys_update_name>
+        <sys_update_version display_value="sys_script_6c829207479261104a908a5f746d43ad">28829207479261104a908a5f746d43b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:49:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -8,6 +8,7 @@
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="Primary Contact" max_length="32" name="primary_contact" reference="sys_user" type="reference"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_time"/>
         <element label="Type" max_length="40" name="type" type="string"/>
         <element label="website" max_length="40" name="website" type="url"/>
         <index name="index">
