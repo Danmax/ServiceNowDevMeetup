@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace_Maintenance</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 05:12:45</sys_created_on>
+        <sys_id>00e99b5c476621104a908a5f746d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Maintenance</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ui_view_00e99b5c476621104a908a5f746d432b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:12:45</sys_updated_on>
+        <title>Workspace Maintenance</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

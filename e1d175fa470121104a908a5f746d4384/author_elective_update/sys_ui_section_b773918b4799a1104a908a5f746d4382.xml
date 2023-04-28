@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="x_407566_adventu_0_contract" section_id="b773918b4799a1104a908a5f746d4382" sys_domain="global" table="x_407566_adventu_0_contract" version="3" view="Transport">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewable</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_administrator</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_contract</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>starts</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ends</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_end_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiration</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_schedule</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_type</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commitment</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_composite</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_model</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_adjustment</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_payment_terms</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terms_and_conditions</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>x_407566_adventu_0_contract</caption>
+            <header>false</header>
+            <name>x_407566_adventu_0_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b773918b4799a1104a908a5f746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_adventu_0_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_ui_section_b773918b4799a1104a908a5f746d4382</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:10:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Transport" name="Transport">7773918b4799a1104a908a5f746d437e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_ui_section_b773918b4799a1104a908a5f746d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_407566_adventu_0_contract" section_id="b773918b4799a1104a908a5f746d4382" sys_domain="global" table="x_407566_adventu_0_contract" version="3" view="Transport">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewable</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_administrator</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_contract</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>life_cycle_stage</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>starts</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ends</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_end_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiration</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_schedule</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_type</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commitment</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_composite</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_model</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_adjustment</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_payment_terms</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0454dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0854dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0c54dd8b4799a1104a908a5f746d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terms_and_conditions</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:14:00</sys_created_on>
+            <sys_id>0054dd8b4799a1104a908a5f746d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_407566_adventu_0_contract" display_value="x_407566_adventu_0_contract" name="x_407566_adventu_0_contract" sys_domain="global" view="7773918b4799a1104a908a5f746d437e">b773918b4799a1104a908a5f746d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:14:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_407566_adventu_0_contract</caption>
+            <header>false</header>
+            <name>x_407566_adventu_0_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-05 05:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b773918b4799a1104a908a5f746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_adventu_0_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_ui_section_b773918b4799a1104a908a5f746d4382</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-05 05:10:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Transport" name="Transport">7773918b4799a1104a908a5f746d437e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1728734716</payload_hash>
+        <record_name>Contract</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:51:12</sys_created_on>
+        <sys_id>522bfecd472521104a908a5f746d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cc4bfb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:51:12</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>122bfecd66252110ee800b47d7c284d5</update_guid>
+        <update_guid_history>122bfecd66252110ee800b47d7c284d5:-1728734716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 05:10:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>45857cf2cec947689d1bf8f703933c40</sys_id>
+        <sys_metadata>b773918b4799a1104a908a5f746d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_contract</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="">f5c15dc74799a1104a908a5f746d43ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b773918b4799a1104a908a5f746d4382</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b773918b4799a1104a908a5f746d4382">522bfecd472521104a908a5f746d43d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:10:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

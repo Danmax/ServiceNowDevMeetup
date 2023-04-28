@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>weekly_schedule</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Weekly Schedule</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 23:31:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82a8f3e747d221104a908a5f746d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly Schedule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_hub_flow_82a8f3e747d221104a908a5f746d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 23:31:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_variable_value action="DELETE" query="document_key=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=82a8f3e747d221104a908a5f746d43b1^sys_idNOT IN4ea8f3e747d221104a908a5f746d43b1"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>82a8f3e747d221104a908a5f746d43b1</id>
+        <name>Weekly Schedule</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 23:31:47</sys_created_on>
+        <sys_id>4ea8f3e747d221104a908a5f746d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 23:31:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=4ea8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_flow_input action="DELETE" query="model=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_flow_output action="DELETE" query="model=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_action_instance action="DELETE" query="flow=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_hub_flow_variable action="DELETE" query="model=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=82a8f3e747d221104a908a5f746d43b1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_hub_flow_82a8f3e747d221104a908a5f746d43b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><internal_name>weekly_schedule</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Weekly Schedule</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-25 23:31:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>82a8f3e747d221104a908a5f746d43b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Weekly Schedule</sys_name><sys_overrides/><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_hub_flow_82a8f3e747d221104a908a5f746d43b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-25 23:31:47</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=82a8f3e747d221104a908a5f746d43b1"/><sys_variable_value action="delete_multiple" query="document_key=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_trigger_instance action="delete_multiple" query="flow=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_flow_stage action="delete_multiple" query="flow=82a8f3e747d221104a908a5f746d43b1"/><sys_flow_cat_variable_model action="delete_multiple" query="id=82a8f3e747d221104a908a5f746d43b1^sys_idNOT IN4ea8f3e747d221104a908a5f746d43b1"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>82a8f3e747d221104a908a5f746d43b1</id><name>Weekly Schedule</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-25 23:31:47</sys_created_on><sys_id>4ea8f3e747d221104a908a5f746d43b1</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-25 23:31:47</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4ea8f3e747d221104a908a5f746d43b1"/><sys_hub_flow_input action="delete_multiple" query="model=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_flow_output action="delete_multiple" query="model=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_action_instance action="delete_multiple" query="flow=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_flow_logic action="delete_multiple" query="flow=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=82a8f3e747d221104a908a5f746d43b1"/><sys_hub_flow_variable action="delete_multiple" query="model=82a8f3e747d221104a908a5f746d43b1"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_82a8f3e747d221104a908a5f746d43b1"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_82a8f3e747d221104a908a5f746d43b1"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_82a8f3e747d221104a908a5f746d43b1"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_82a8f3e747d221104a908a5f746d43b1"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=82a8f3e747d221104a908a5f746d43b1"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=82a8f3e747d221104a908a5f746d43b1"/></record_update>]]></payload>
+        <payload_hash>-36977730</payload_hash>
+        <record_name>Weekly Schedule</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 23:31:47</sys_created_on>
+        <sys_id>d6a8f3e747d221104a908a5f746d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bac24a8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 23:31:47</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>1ea8f3e723d22110af9ca6aa7e7bf9b6</update_guid>
+        <update_guid_history>1ea8f3e723d22110af9ca6aa7e7bf9b6:-36977730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 01:00:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>9bf25d2d3b8646e29dc00854a1c726f1</sys_id>
+        <sys_metadata>82a8f3e747d221104a908a5f746d43b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly Schedule</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_82a8f3e747d221104a908a5f746d43b1</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_82a8f3e747d221104a908a5f746d43b1">d6a8f3e747d221104a908a5f746d43b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 01:00:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

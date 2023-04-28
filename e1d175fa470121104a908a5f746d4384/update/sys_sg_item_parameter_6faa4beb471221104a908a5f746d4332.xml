@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Maintenance category</name>
+        <parent>2faa4beb471221104a908a5f746d4331</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 20:10:54</sys_created_on>
+        <sys_id>6faa4beb471221104a908a5f746d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance category</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_6faa4beb471221104a908a5f746d4332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 20:10:54</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

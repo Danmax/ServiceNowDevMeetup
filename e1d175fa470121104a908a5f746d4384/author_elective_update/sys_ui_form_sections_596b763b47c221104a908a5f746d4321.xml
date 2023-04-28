@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="596b763b47c221104a908a5f746d4321" sys_domain="global" table="x_407566_adventu_0_contract" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_407566_adventu_0_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 03:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>596b763b47c221104a908a5f746d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_adventu_0_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_ui_form_sections_596b763b47c221104a908a5f746d4321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-14 03:26:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace-x 407566 adventu 0-1" name="Workspace-x_407566_adventu_0-1">da5bb23b3ac221101c79077133466b56</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_ui_form_sections_596b763b47c221104a908a5f746d4321</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="596b763b47c221104a908a5f746d4321" sys_domain="global" table="x_407566_adventu_0_contract" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_407566_adventu_0_contract</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-14 03:26:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>596b763b47c221104a908a5f746d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_407566_adventu_0_contract</sys_name><sys_overrides/><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_ui_form_sections_596b763b47c221104a908a5f746d4321</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-14 03:26:54</sys_updated_on><sys_user/><view display_value="Workspace-x 407566 adventu 0-1" name="Workspace-x_407566_adventu_0-1">da5bb23b3ac221101c79077133466b56</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-843775570</payload_hash>
+        <record_name>Contract</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 03:26:54</sys_created_on>
+        <sys_id>156bb63b47c221104a908a5f746d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877dcd3aba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 03:26:54</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>596bb63b14c2211026cd3289faff1b72</update_guid>
+        <update_guid_history>596bb63b14c2211026cd3289faff1b72:-843775570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 05:10:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>28325082b57942128ca51df9096dbe24</sys_id>
+        <sys_metadata>596b763b47c221104a908a5f746d4321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_contract</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="">f5c15dc74799a1104a908a5f746d43ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_596b763b47c221104a908a5f746d4321</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_596b763b47c221104a908a5f746d4321">156bb63b47c221104a908a5f746d4373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:10:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
