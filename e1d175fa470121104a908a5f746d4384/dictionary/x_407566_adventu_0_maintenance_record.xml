@@ -30,7 +30,7 @@
         <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element label="duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="Mileage" max_length="40" name="mileage" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Service by" max_length="32" name="service_by" reference="sys_user" type="reference"/>
         <element label="Service Offering" max_length="40" name="service_offering" type="string"/>
