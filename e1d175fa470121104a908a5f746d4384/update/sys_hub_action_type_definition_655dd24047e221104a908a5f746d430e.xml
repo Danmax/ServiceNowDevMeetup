@@ -13,7 +13,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>create_schedule</internal_name>
-        <label_cache>[{"name":"{{action.school_start_time}}","label":"action➛School Start Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.week_of}}","label":"action➛Week of","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release}}","label":"action➛Early Release","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_day}}","label":"action➛Early Release Day","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_time}}","label":"action➛Early Release Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.school_end_time}}","label":"action➛School End Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_time}}","label":"action➛Start Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.regular_end_time}}","label":"action➛Regular End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_end_time}}","label":"action➛Early Release End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].weekdays}}","label":"step➛Script step➛weekdays","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"7ea2e002-dc1c-4e0e-a9d7-599a30622cfb"}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].schedule}}","label":"step➛Script step➛schedule","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"fb3cf770-f6ba-4b67-bb80-dee1b00583ea"}}]</label_cache>
+        <label_cache>[{"name":"{{action.school_start_time}}","label":"action➛School Start Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.week_of}}","label":"action➛Week of","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release}}","label":"action➛Early Release","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_day}}","label":"action➛Early Release Day","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_time}}","label":"action➛Early Release Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.school_end_time}}","label":"action➛School End Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_time}}","label":"action➛Start Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.regular_end_time}}","label":"action➛Regular End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_end_time}}","label":"action➛Early Release End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportationcontract}}","label":"action➛TransportationContract","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportation_contract}}","label":"action➛Transportation Contract","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.regular_start_time}}","label":"action➛Transportation Contract➛School➛Regular Start Time","type":"action","ref":"","reference_display":"Regular Start Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_start_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.regular_end_time}}","label":"action➛Transportation Contract➛School➛Regular End Time","type":"action","ref":"","reference_display":"Regular End Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_end_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.early_release_end_time}}","label":"action➛Transportation Contract➛School➛Early Release End Time","type":"action","ref":"","reference_display":"Early Release End Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"early_release_end_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.student}}","label":"action➛Transportation Contract➛Student","type":"action","ref":"x_407566_adventu_0_student","reference_display":"Student","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"student","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.home_pickup_location}}","label":"action➛Transportation Contract➛Home Pickup Location","type":"action","ref":"cmn_location","reference_display":"Home Pickup Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"home_pickup_location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.home_pickup_location.sys_id}}","label":"action➛Transportation Contract➛Home Pickup Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.student.sys_id}}","label":"action➛Transportation Contract➛Student➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_student","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.sys_id}}","label":"action➛Transportation Contract➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.location}}","label":"action➛Transportation Contract➛School➛Location","type":"action","ref":"cmn_location","reference_display":"Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_school","column_name":"location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.parent.location}}","label":"action➛Transportation Contract➛Parent➛Location","type":"action","ref":"cmn_location","reference_display":"Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_parent","column_name":"location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.sys_id}}","label":"action➛Transportation Contract➛School➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_school","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.location.sys_id}}","label":"action➛Transportation Contract➛School➛Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.parent.location.sys_id}}","label":"action➛Transportation Contract➛Parent➛Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].weekdays}}","label":"step➛Script step➛weekdays","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"7ea2e002-dc1c-4e0e-a9d7-599a30622cfb"}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].schedule}}","label":"step➛Script step➛schedule","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"fb3cf770-f6ba-4b67-bb80-dee1b00583ea"}}]</label_cache>
         <master_snapshot>6ae56e4847e221104a908a5f746d4383</master_snapshot>
         <name>Create Schedule</name>
         <natlang/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>655dd24047e221104a908a5f746d430e</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>120</sys_mod_count>
         <sys_name>Create Schedule</sys_name>
         <sys_overrides/>
         <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
@@ -35,12 +35,40 @@
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_655dd24047e221104a908a5f746d430e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:32</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=655dd24047e221104a908a5f746d430e"/>
     <sys_variable_value action="delete_multiple" query="document_key=655dd24047e221104a908a5f746d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>655dd24047e221104a908a5f746d430e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 01:44:57</sys_created_on>
+        <sys_id>86e377a0472621104a908a5f746d433e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 15:40:06</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">8ae377a0472621104a908a5f746d4317</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>655dd24047e221104a908a5f746d430e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 01:44:57</sys_created_on>
+        <sys_id>c2e377a0472621104a908a5f746d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 01:44:57</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">8ae377a0472621104a908a5f746d431c</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=655dd24047e221104a908a5f746d430e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>schedule</field>
@@ -108,10 +136,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:36:06</sys_created_on>
         <sys_id>6b536e8447e221104a908a5f746d4382</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:30</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:05</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b536e8447e221104a908a5f746d4382"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -136,58 +164,73 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:36:07</sys_created_on>
         <sys_id>ef536e8447e221104a908a5f746d4396</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:30</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:05</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-// Define the start time as 8:00 am and the end times as 3:00 pm and 2:00 pm for regular and early release days, respectively
-var startTime = inputs.StartTime;
-var endTimeRegular = inputs.RegularEndTime;
-var endTimeEarlyRelease = inputs.EarlyReleaseEndTime;
+  // Define the start time as 8:00 am and the end times as 3:00 pm and 2:00 pm for regular and early release days, respectively
+  var startTime = inputs.StartTime;
+  var endTimeRegular = inputs.RegularEndTime;
+  var endTimeEarlyRelease = inputs.EarlyReleaseEndTime;
+  var student = inputs.Student;
+  var pickupLocation = inputs.PickupLocation;
+  var parent = inputs.ContractRecord
+  var destination = inputs.Destination
 
-// Define an array of the weekdays from Monday to Friday
-var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-
-// Create a Date object for the current date and get the day of the week as a number (0 = Sunday, 1 = Monday, etc.)
-var currentDate = new Date();
-var currentDayOfWeek = currentDate.getDay();
-
-// Calculate the date for Monday of the current week by subtracting the current day of the week from the current date and adding 1
-var mondayDate = new Date(currentDate);
-mondayDate.setDate(currentDate.getDate() - currentDayOfWeek + 1);
-
-// Create an array to store the pickup schedule for each date
-var pickupSchedule = [];
-
-// Loop through the weekdays array and add the pickup schedule for each date to the pickupSchedule array
-weekdays.forEach(function(day, index) {
-  // Calculate the date for the current day by adding the index to the Monday date
-  var currentDate = new Date(mondayDate);
-  currentDate.setDate(mondayDate.getDate() + index);
-  
-  // Determine the end time based on whether it's an early release day or not
-  var endTime;
-  if (day === 'Wednesday') {
-    endTime = endTimeEarlyRelease;
-  } else {
-    endTime = endTimeRegular;
-  }
-  
-  // Add the pickup schedule for the current date to the pickupSchedule array
-  pickupSchedule.push({
-    date: currentDate.toDateString(),
-    startTime: startTime,
-    endTime: endTime
+  // Define an array of the weekdays from Monday to Friday
+  var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+	
+  // Create a Date object for the current date and get the day of the week as a number (0 = Sunday, 1 = Monday, etc.)
+  var currentDate = new GlideDateTime();
+  var currentDayOfWeek = currentDate.getDayOfWeekLocalTime();
+	
+  // Calculate the date for Monday of the current week by subtracting the current day of the week from the current date and adding 1
+  var mondayDate = new GlideDateTime(currentDate);
+  mondayDate.setDisplayValue(currentDate.getLocalDate() - currentDayOfWeek + 1);
+	dayStart = mondayDate;
+    scheduledPickup = mondayDate.getLocalDate();
+  // Loop through the weekdays array and create a new GlideRecord for each weekday with the start and end times set to the specified values
+  weekdays.forEach(function(day, index) {
+    // Calculate the date for the current day by adding the index to the Monday date
+    var currentDate = new GlideDateTime(mondayDate);
+    
+    var scheduledDate = new GlideDateTime(mondayDate);
+    currentDate.setDisplayValue(mondayDate.getLocalDate() + index);
+     var theDay= (scheduledDate.getLocalDate() + ' 08:00:00');
+     scheduledDate.setValue(theDay);
+     var serviceDate = currentDate.getLocalDate()
+    gs.info("**** Current Date: " + currentDate);
+    
+    // Determine the end time based on whether it's an early release day or not
+    var endTime;
+    if (day === 'Wednesday') {
+      endTime = endTimeEarlyRelease;
+    } else {
+      endTime = endTimeRegular;
+    }
+    
+    
+    
+    // Create a new GlideRecord for the current weekday and set the fields
+    var newRecord = new GlideRecord('x_407566_adventu_0_transportation');
+    newRecord.initialize();
+    newRecord.setValue('active', true);
+    newRecord.setValue('school_start_time', startTime);
+    newRecord.setValue('school_end_time', endTime);
+    newRecord.setValue('weekday', day);
+    newRecord.setValue('student', student);
+    newRecord.setValue('state', 'scheduled');
+    newRecord.setValue('type', 'to_school');
+    newRecord.setValue('pickup_location', pickupLocation);
+   newRecord.setValue('drop_off_location', destination);
+    newRecord.setValue('notes', "Auto Generated Schedule 2023");
+   newRecord.setValue('scheduled_pickup', serviceDate);
+    newRecord.setValue('parent', parent);
+    newRecord.insert();
   });
-});
-            
 
-
-
-  outputs.weekdays = weekdays;
-  
-  outputs.schedule = JSON.stringify(pickupSchedule)
-
+  outputs.weekdays = serviceDate;
+  outputs.schedule = scheduledDate;
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -204,6 +247,30 @@ weekdays.forEach(function(day, index) {
         <sys_updated_on>2023-04-27 06:36:07</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ContractRecord</field>
+        <id>6b536e8447e221104a908a5f746d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:08:47</sys_created_on>
+        <sys_id>4a17c474476621104a908a5f746d435e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:58:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
+        <value>{{action.transportation_contract.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Destination</field>
+        <id>6b536e8447e221104a908a5f746d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:46:15</sys_created_on>
+        <sys_id>b7d8f878472a21104a908a5f746d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:58:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
+        <value>{{action.transportation_contract.school.location.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>EarlyReleaseDay</field>
@@ -223,11 +290,11 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:57:57</sys_created_on>
         <sys_id>e90b7e1c47e221104a908a5f746d4319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:47</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
-        <value>{{action.early_release_end_time}}</value>
+        <value>{{action.transportation_contract.school.early_release_end_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>endTimeEarlyRelease</field>
@@ -242,16 +309,28 @@ weekdays.forEach(function(day, index) {
         <value>{{action.early_release_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>PickupLocation</field>
+        <id>6b536e8447e221104a908a5f746d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:24:02</sys_created_on>
+        <sys_id>e59a8078476621104a908a5f746d4315</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:58:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
+        <value>{{action.transportation_contract.parent.location.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>RegularEndTime</field>
         <id>6b536e8447e221104a908a5f746d4382</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:57:57</sys_created_on>
         <sys_id>250b7e1c47e221104a908a5f746d4319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:47</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
-        <value>{{action.regular_end_time}}</value>
+        <value>{{action.transportation_contract.school.regular_end_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
@@ -271,16 +350,28 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:36:07</sys_created_on>
         <sys_id>ab536e8447e221104a908a5f746d4397</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:47</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
-        <value>{{action.start_time}}</value>
+        <value>{{action.transportation_contract.school.regular_start_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Student</field>
+        <id>6b536e8447e221104a908a5f746d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:24:02</sys_created_on>
+        <sys_id>a99a8078476621104a908a5f746d4315</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:58:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</table>
+        <value>{{action.transportation_contract.student.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6b536e8447e221104a908a5f746d4382^id=6b536e8447e221104a908a5f746d4382"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6b536e8447e221104a908a5f746d4382"/>
     <sys_translated_text action="delete_multiple" query="documentkey=6b536e8447e221104a908a5f746d4382"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=6b536e8447e221104a908a5f746d4382^sys_idNOT IN210b7e1c47e221104a908a5f746d4304,210b7e1c47e221104a908a5f746d4307,a10b7e1c47e221104a908a5f746d4309"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6b536e8447e221104a908a5f746d4382^sys_idNOT IN210b7e1c47e221104a908a5f746d4304,210b7e1c47e221104a908a5f746d4307,6b8b7cbc472a21104a908a5f746d43be,778b7cbc472a21104a908a5f746d43e1,a10b7e1c47e221104a908a5f746d4309,a38b7cbc472a21104a908a5f746d43ce,a78b7cbc472a21104a908a5f746d43c7"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -326,7 +417,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
         <next_element/>
-        <order>0</order>
+        <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -344,14 +435,14 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:57:57</sys_created_on>
         <sys_id>210b7e1c47e221104a908a5f746d4304</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -409,7 +500,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
         <next_element/>
-        <order>100</order>
+        <order>200</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -427,14 +518,180 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:57:57</sys_created_on>
         <sys_id>210b7e1c47e221104a908a5f746d4307</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ContractRecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">6b536e8447e221104a908a5f746d4382</model>
+        <model_id>6b536e8447e221104a908a5f746d4382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:57:59</sys_created_on>
+        <sys_id>6b8b7cbc472a21104a908a5f746d43be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:06:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Destination</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">6b536e8447e221104a908a5f746d4382</model>
+        <model_id>6b536e8447e221104a908a5f746d4382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:58:00</sys_created_on>
+        <sys_id>778b7cbc472a21104a908a5f746d43e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:06:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -492,7 +749,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
         <next_element/>
-        <order>200</order>
+        <order>300</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -510,14 +767,180 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:57:57</sys_created_on>
         <sys_id>a10b7e1c47e221104a908a5f746d4309</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>PickupLocation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">6b536e8447e221104a908a5f746d4382</model>
+        <model_id>6b536e8447e221104a908a5f746d4382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:57:59</sys_created_on>
+        <sys_id>a38b7cbc472a21104a908a5f746d43ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:06:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">6b536e8447e221104a908a5f746d4382</model>
+        <model_id>6b536e8447e221104a908a5f746d4382</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6b536e8447e221104a908a5f746d4382</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:57:59</sys_created_on>
+        <sys_id>a78b7cbc472a21104a908a5f746d43c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:06:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -745,12 +1168,12 @@ weekdays.forEach(function(day, index) {
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=655dd24047e221104a908a5f746d430e^sys_idNOT IN5d0b7ad847e221104a908a5f746d4358,a50b3e1c47e221104a908a5f746d43f8,dd0b3e1c47e221104a908a5f746d43f4"/>
+    <sys_hub_action_input action="delete_multiple" query="model=655dd24047e221104a908a5f746d430e^sys_idNOT IN391744b0476621104a908a5f746d43d6"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cf51148e-e656-4c8f-a6b8-f06a30c67f52</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8cd16c6c-1ac8-4fdb-a011-086cd0026602</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -760,7 +1183,7 @@ weekdays.forEach(function(day, index) {
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table/>
+        <choice_table>x_407566_adventu_0_transport_contract</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -774,7 +1197,7 @@ weekdays.forEach(function(day, index) {
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>start_time</element>
+        <element>transportation_contract</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -782,10 +1205,10 @@ weekdays.forEach(function(day, index) {
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Start Time</label>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Transportation Contract</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>32</max_length>
         <model display_value="Create Schedule">655dd24047e221104a908a5f746d430e</model>
         <model_id>655dd24047e221104a908a5f746d430e</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -795,7 +1218,7 @@ weekdays.forEach(function(day, index) {
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_407566_adventu_0_transport_contract">x_407566_adventu_0_transport_contract</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -807,16 +1230,16 @@ weekdays.forEach(function(day, index) {
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:56</sys_created_on>
-        <sys_id>5d0b7ad847e221104a908a5f746d4358</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2023-04-29 03:08:46</sys_created_on>
+        <sys_id>391744b0476621104a908a5f746d43d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:56</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -829,12 +1252,13 @@ weekdays.forEach(function(day, index) {
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5d0b7ad847e221104a908a5f746d4358"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=391744b0476621104a908a5f746d43d6"/>
+    <sys_hub_action_output action="delete_multiple" query="model=655dd24047e221104a908a5f746d430e^sys_idNOT IN8ae377a0472621104a908a5f746d4317,8ae377a0472621104a908a5f746d431c,f717e2c847e221104a908a5f746d4399,feb8de98476221104a908a5f746d436c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fc435e2e-1ee5-44b3-b25d-fc9e344b1ade</attributes>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a03f4e48-6085-4411-a71e-f29ced82a806</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -858,7 +1282,8 @@ weekdays.forEach(function(day, index) {
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>early_release_end_time</element>
+        <element>__action_status__</element>
+        <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -866,14 +1291,15 @@ weekdays.forEach(function(day, index) {
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="String">string</internal_type>
-        <label>Early Release End Time</label>
+        <label>Action Status</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>65000</max_length>
         <model display_value="Create Schedule">655dd24047e221104a908a5f746d430e</model>
         <model_id>655dd24047e221104a908a5f746d430e</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e</name>
+        <name>var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e</name>
         <next_element/>
         <order>3</order>
         <primary>false</primary>
@@ -889,10 +1315,10 @@ weekdays.forEach(function(day, index) {
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:57</sys_created_on>
-        <sys_id>a50b3e1c47e221104a908a5f746d43f8</sys_id>
+        <sys_created_on>2023-04-29 01:44:56</sys_created_on>
+        <sys_id>8ae377a0472621104a908a5f746d4317</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -900,7 +1326,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 01:44:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -912,13 +1338,14 @@ weekdays.forEach(function(day, index) {
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a50b3e1c47e221104a908a5f746d43f8"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ae377a0472621104a908a5f746d4317"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ae377a0472621104a908a5f746d4317"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=16be1b86-e109-467b-aa30-1a787c373a2d</attributes>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f3d64975-4a89-4d59-bccc-b5f17a8dd419,visible_in_ui=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -932,7 +1359,7 @@ weekdays.forEach(function(day, index) {
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>true</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -942,7 +1369,8 @@ weekdays.forEach(function(day, index) {
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>regular_end_time</element>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -950,16 +1378,17 @@ weekdays.forEach(function(day, index) {
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Regular End Time</label>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>40</max_length>
         <model display_value="Create Schedule">655dd24047e221104a908a5f746d430e</model>
         <model_id>655dd24047e221104a908a5f746d430e</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e</name>
+        <name>var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e</name>
         <next_element/>
-        <order>2</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -973,18 +1402,18 @@ weekdays.forEach(function(day, index) {
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:57</sys_created_on>
-        <sys_id>dd0b3e1c47e221104a908a5f746d43f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2023-04-29 01:44:57</sys_created_on>
+        <sys_id>8ae377a0472621104a908a5f746d431c</sys_id>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -996,9 +1425,9 @@ weekdays.forEach(function(day, index) {
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dd0b3e1c47e221104a908a5f746d43f4"/>
-    <sys_hub_action_output action="delete_multiple" query="model=655dd24047e221104a908a5f746d430e^sys_idNOT INf717e2c847e221104a908a5f746d4399,feb8de98476221104a908a5f746d436c"/>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ae377a0472621104a908a5f746d431c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ae377a0472621104a908a5f746d431c"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1198,19 +1627,19 @@ weekdays.forEach(function(day, index) {
         <sys_updated_on>2023-04-27 06:36:07</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6f536e8447e221104a908a5f746d43a1"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e^sys_idNOT IN9d0b3e1c47e221104a908a5f746d43f3,a10b3e1c47e221104a908a5f746d43fb,e90b3e1c47e221104a908a5f746d43f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e^sys_idNOT INb117c474476621104a908a5f746d431f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>start_time</element>
+        <element>transportation_contract</element>
         <help/>
         <hint/>
-        <label>Start Time</label>
+        <label>Transportation Contract</label>
         <language>en</language>
         <name>var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:57</sys_created_on>
-        <sys_id>9d0b3e1c47e221104a908a5f746d43f3</sys_id>
+        <sys_created_on>2023-04-29 03:08:46</sys_created_on>
+        <sys_id>b117c474476621104a908a5f746d431f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
@@ -1218,58 +1647,58 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>early_release_end_time</element>
-        <help/>
-        <hint/>
-        <label>Early Release End Time</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:57</sys_created_on>
-        <sys_id>a10b3e1c47e221104a908a5f746d43fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>regular_end_time</element>
-        <help/>
-        <hint/>
-        <label>Regular End Time</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:57:57</sys_created_on>
-        <sys_id>e90b3e1c47e221104a908a5f746d43f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:57:57</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:08:46</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_655dd24047e221104a908a5f746d430e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e^sys_idNOT INf317e2c847e221104a908a5f746d439d,feb8de98476221104a908a5f746d436f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e^sys_idNOT IN8ae377a0472621104a908a5f746d433a,cae377a0472621104a908a5f746d431b,f317e2c847e221104a908a5f746d439d,feb8de98476221104a908a5f746d436f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 01:44:57</sys_created_on>
+        <sys_id>8ae377a0472621104a908a5f746d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 01:44:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_655dd24047e221104a908a5f746d430e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 01:44:57</sys_created_on>
+        <sys_id>cae377a0472621104a908a5f746d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 01:44:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>schedule</element>
         <help/>
@@ -1321,17 +1750,17 @@ weekdays.forEach(function(day, index) {
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create Schedule">655dd24047e221104a908a5f746d430e</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3ae56e4847e221104a908a5f746d43e5","name":"plan","plan_signature":null}}</plan>
-        <snapshot>07ff8f90476621104a908a5f746d4332</snapshot>
+        <snapshot>ffa4c7b8476221104a908a5f746d438e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ae56e4847e221104a908a5f746d43e5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:33</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:08</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1345,7 +1774,7 @@ weekdays.forEach(function(day, index) {
         <copied_from_name/>
         <description/>
         <internal_name>create_schedule</internal_name>
-        <label_cache>[{"name":"{{action.school_start_time}}","label":"action➛School Start Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.week_of}}","label":"action➛Week of","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release}}","label":"action➛Early Release","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_day}}","label":"action➛Early Release Day","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_time}}","label":"action➛Early Release Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.school_end_time}}","label":"action➛School End Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_time}}","label":"action➛Start Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.regular_end_time}}","label":"action➛Regular End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_end_time}}","label":"action➛Early Release End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].weekdays}}","label":"step➛Script step➛weekdays","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"7ea2e002-dc1c-4e0e-a9d7-599a30622cfb"}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].schedule}}","label":"step➛Script step➛schedule","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"fb3cf770-f6ba-4b67-bb80-dee1b00583ea"}}]</label_cache>
+        <label_cache>[{"name":"{{action.school_start_time}}","label":"action➛School Start Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.week_of}}","label":"action➛Week of","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release}}","label":"action➛Early Release","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_day}}","label":"action➛Early Release Day","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_time}}","label":"action➛Early Release Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.school_end_time}}","label":"action➛School End Time","type":"action","ref":"","reference_display":"","base_type":"glide_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_time}}","label":"action➛Start Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.regular_end_time}}","label":"action➛Regular End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.early_release_end_time}}","label":"action➛Early Release End Time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportationcontract}}","label":"action➛TransportationContract","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportation_contract}}","label":"action➛Transportation Contract","type":"action","ref":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.regular_start_time}}","label":"action➛Transportation Contract➛School➛Regular Start Time","type":"action","ref":"","reference_display":"Regular Start Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_start_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.regular_end_time}}","label":"action➛Transportation Contract➛School➛Regular End Time","type":"action","ref":"","reference_display":"Regular End Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_end_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.early_release_end_time}}","label":"action➛Transportation Contract➛School➛Early Release End Time","type":"action","ref":"","reference_display":"Early Release End Time","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"early_release_end_time","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.student}}","label":"action➛Transportation Contract➛Student","type":"action","ref":"x_407566_adventu_0_student","reference_display":"Student","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"student","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.home_pickup_location}}","label":"action➛Transportation Contract➛Home Pickup Location","type":"action","ref":"cmn_location","reference_display":"Home Pickup Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"home_pickup_location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.home_pickup_location.sys_id}}","label":"action➛Transportation Contract➛Home Pickup Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.student.sys_id}}","label":"action➛Transportation Contract➛Student➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_student","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.sys_id}}","label":"action➛Transportation Contract➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.location}}","label":"action➛Transportation Contract➛School➛Location","type":"action","ref":"cmn_location","reference_display":"Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_school","column_name":"location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.parent.location}}","label":"action➛Transportation Contract➛Parent➛Location","type":"action","ref":"cmn_location","reference_display":"Location","base_type":"reference","parent_table_name":"x_407566_adventu_0_parent","column_name":"location","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.sys_id}}","label":"action➛Transportation Contract➛School➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_adventu_0_school","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.school.location.sys_id}}","label":"action➛Transportation Contract➛School➛Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.transportation_contract.parent.location.sys_id}}","label":"action➛Transportation Contract➛Parent➛Location➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].weekdays}}","label":"step➛Script step➛weekdays","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"7ea2e002-dc1c-4e0e-a9d7-599a30622cfb"}},{"name":"{{step[14542a8a-4416-4b5c-8236-e0491a03b7b8].schedule}}","label":"step➛Script step➛schedule","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"fb3cf770-f6ba-4b67-bb80-dee1b00583ea"}}]</label_cache>
         <master>true</master>
         <name>Create Schedule</name>
         <natlang/>
@@ -1358,7 +1787,7 @@ weekdays.forEach(function(day, index) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ae56e4847e221104a908a5f746d4383</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1366,7 +1795,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 07:09:47</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1394,9 +1823,9 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:15</sys_created_on>
         <sys_id>f2e56e4847e221104a908a5f746d43a0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 00:09:26</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:07</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">e6e56e4847e221104a908a5f746d4394</variable>
     </sys_variable_value>
@@ -1467,10 +1896,10 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:15</sys_created_on>
         <sys_id>a6e56e4847e221104a908a5f746d4387</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:32</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a6e56e4847e221104a908a5f746d4387"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1481,58 +1910,73 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:15</sys_created_on>
         <sys_id>22e56e4847e221104a908a5f746d4392</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:32</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:07</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-// Define the start time as 8:00 am and the end times as 3:00 pm and 2:00 pm for regular and early release days, respectively
-var startTime = inputs.StartTime;
-var endTimeRegular = inputs.RegularEndTime;
-var endTimeEarlyRelease = inputs.EarlyReleaseEndTime;
+  // Define the start time as 8:00 am and the end times as 3:00 pm and 2:00 pm for regular and early release days, respectively
+  var startTime = inputs.StartTime;
+  var endTimeRegular = inputs.RegularEndTime;
+  var endTimeEarlyRelease = inputs.EarlyReleaseEndTime;
+  var student = inputs.Student;
+  var pickupLocation = inputs.PickupLocation;
+  var parent = inputs.ContractRecord
+  var destination = inputs.Destination
 
-// Define an array of the weekdays from Monday to Friday
-var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-
-// Create a Date object for the current date and get the day of the week as a number (0 = Sunday, 1 = Monday, etc.)
-var currentDate = new Date();
-var currentDayOfWeek = currentDate.getDay();
-
-// Calculate the date for Monday of the current week by subtracting the current day of the week from the current date and adding 1
-var mondayDate = new Date(currentDate);
-mondayDate.setDate(currentDate.getDate() - currentDayOfWeek + 1);
-
-// Create an array to store the pickup schedule for each date
-var pickupSchedule = [];
-
-// Loop through the weekdays array and add the pickup schedule for each date to the pickupSchedule array
-weekdays.forEach(function(day, index) {
-  // Calculate the date for the current day by adding the index to the Monday date
-  var currentDate = new Date(mondayDate);
-  currentDate.setDate(mondayDate.getDate() + index);
-  
-  // Determine the end time based on whether it's an early release day or not
-  var endTime;
-  if (day === 'Wednesday') {
-    endTime = endTimeEarlyRelease;
-  } else {
-    endTime = endTimeRegular;
-  }
-  
-  // Add the pickup schedule for the current date to the pickupSchedule array
-  pickupSchedule.push({
-    date: currentDate.toDateString(),
-    startTime: startTime,
-    endTime: endTime
+  // Define an array of the weekdays from Monday to Friday
+  var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+	
+  // Create a Date object for the current date and get the day of the week as a number (0 = Sunday, 1 = Monday, etc.)
+  var currentDate = new GlideDateTime();
+  var currentDayOfWeek = currentDate.getDayOfWeekLocalTime();
+	
+  // Calculate the date for Monday of the current week by subtracting the current day of the week from the current date and adding 1
+  var mondayDate = new GlideDateTime(currentDate);
+  mondayDate.setDisplayValue(currentDate.getLocalDate() - currentDayOfWeek + 1);
+	dayStart = mondayDate;
+    scheduledPickup = mondayDate.getLocalDate();
+  // Loop through the weekdays array and create a new GlideRecord for each weekday with the start and end times set to the specified values
+  weekdays.forEach(function(day, index) {
+    // Calculate the date for the current day by adding the index to the Monday date
+    var currentDate = new GlideDateTime(mondayDate);
+    
+    var scheduledDate = new GlideDateTime(mondayDate);
+    currentDate.setDisplayValue(mondayDate.getLocalDate() + index);
+     var theDay= (scheduledDate.getLocalDate() + ' 08:00:00');
+     scheduledDate.setValue(theDay);
+     var serviceDate = currentDate.getLocalDate()
+    gs.info("**** Current Date: " + currentDate);
+    
+    // Determine the end time based on whether it's an early release day or not
+    var endTime;
+    if (day === 'Wednesday') {
+      endTime = endTimeEarlyRelease;
+    } else {
+      endTime = endTimeRegular;
+    }
+    
+    
+    
+    // Create a new GlideRecord for the current weekday and set the fields
+    var newRecord = new GlideRecord('x_407566_adventu_0_transportation');
+    newRecord.initialize();
+    newRecord.setValue('active', true);
+    newRecord.setValue('school_start_time', startTime);
+    newRecord.setValue('school_end_time', endTime);
+    newRecord.setValue('weekday', day);
+    newRecord.setValue('student', student);
+    newRecord.setValue('state', 'scheduled');
+    newRecord.setValue('type', 'to_school');
+    newRecord.setValue('pickup_location', pickupLocation);
+   newRecord.setValue('drop_off_location', destination);
+    newRecord.setValue('notes', "Auto Generated Schedule 2023");
+   newRecord.setValue('scheduled_pickup', serviceDate);
+    newRecord.setValue('parent', parent);
+    newRecord.insert();
   });
-});
-            
 
-
-
-  outputs.weekdays = weekdays;
-  
-  outputs.schedule = JSON.stringify(pickupSchedule)
-
+  outputs.weekdays = serviceDate;
+  outputs.schedule = scheduledDate;
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1565,16 +2009,52 @@ weekdays.forEach(function(day, index) {
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ContractRecord</field>
+        <id>a6e56e4847e221104a908a5f746d4387</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:25:05</sys_created_on>
+        <sys_id>b0da4878476621104a908a5f746d43ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:48:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
+        <value>{{action.transportation_contract.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Destination</field>
+        <id>a6e56e4847e221104a908a5f746d4387</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:48:53</sys_created_on>
+        <sys_id>9a79f0f8472a21104a908a5f746d433d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:09:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
+        <value>{{action.transportation_contract.school.location.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>EarlyReleaseEndTime</field>
         <id>a6e56e4847e221104a908a5f746d4387</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:06</sys_created_on>
         <sys_id>de4bb25c47e221104a908a5f746d438f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:06</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
-        <value>{{action.early_release_end_time}}</value>
+        <value>{{action.transportation_contract.school.early_release_end_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>PickupLocation</field>
+        <id>a6e56e4847e221104a908a5f746d4387</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:25:05</sys_created_on>
+        <sys_id>fcda4878476621104a908a5f746d43ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 07:09:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
+        <value>{{action.transportation_contract.parent.location.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>RegularEndTime</field>
@@ -1582,11 +2062,11 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:06</sys_created_on>
         <sys_id>1e4bb25c47e221104a908a5f746d438f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:06</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
-        <value>{{action.regular_end_time}}</value>
+        <value>{{action.transportation_contract.school.regular_end_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
@@ -1606,16 +2086,111 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:06</sys_created_on>
         <sys_id>5a4bb25c47e221104a908a5f746d438f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:06</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
-        <value>{{action.start_time}}</value>
+        <value>{{action.transportation_contract.school.regular_start_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Student</field>
+        <id>a6e56e4847e221104a908a5f746d4387</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 03:25:05</sys_created_on>
+        <sys_id>34da4878476621104a908a5f746d43af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:21:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</table>
+        <value>{{action.transportation_contract.student.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a6e56e4847e221104a908a5f746d4387^id=a6e56e4847e221104a908a5f746d4387"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a6e56e4847e221104a908a5f746d4387"/>
     <sys_translated_text action="delete_multiple" query="documentkey=a6e56e4847e221104a908a5f746d4387"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=a6e56e4847e221104a908a5f746d4387^sys_idNOT IN9e4bb25c47e221104a908a5f746d4371,d64bb25c47e221104a908a5f746d436b,de4bb25c47e221104a908a5f746d436e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a6e56e4847e221104a908a5f746d4387^sys_idNOT IN8275643447e621104a908a5f746d4340,9e4bb25c47e221104a908a5f746d4371,c675643447e621104a908a5f746d434a,d64bb25c47e221104a908a5f746d436b,da79f0f8472a21104a908a5f746d4328,de4bb25c47e221104a908a5f746d436e,e44ebcb0476a21104a908a5f746d43f9"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Student</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">a6e56e4847e221104a908a5f746d4387</model>
+        <model_id>a6e56e4847e221104a908a5f746d4387</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:21:29</sys_created_on>
+        <sys_id>8275643447e621104a908a5f746d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:21:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1661,7 +2236,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
         <next_element/>
-        <order>200</order>
+        <order>300</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1679,6 +2254,89 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:05</sys_created_on>
         <sys_id>9e4bb25c47e221104a908a5f746d4371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>PickupLocation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>PickupLocation</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">a6e56e4847e221104a908a5f746d4387</model>
+        <model_id>a6e56e4847e221104a908a5f746d4387</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:21:30</sys_created_on>
+        <sys_id>c675643447e621104a908a5f746d434a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1686,7 +2344,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 05:21:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1744,7 +2402,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
         <next_element/>
-        <order>0</order>
+        <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1762,6 +2420,89 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:05</sys_created_on>
         <sys_id>d64bb25c47e221104a908a5f746d436b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ContractRecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>ContractRecord</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">a6e56e4847e221104a908a5f746d4387</model>
+        <model_id>a6e56e4847e221104a908a5f746d4387</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:48:53</sys_created_on>
+        <sys_id>da79f0f8472a21104a908a5f746d4328</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1769,7 +2510,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 06:48:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1827,7 +2568,7 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
         <next_element/>
-        <order>100</order>
+        <order>200</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1845,6 +2586,89 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-28 02:59:05</sys_created_on>
         <sys_id>de4bb25c47e221104a908a5f746d436e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Destination</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Destination</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">a6e56e4847e221104a908a5f746d4387</model>
+        <model_id>a6e56e4847e221104a908a5f746d4387</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a6e56e4847e221104a908a5f746d4387</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 07:09:47</sys_created_on>
+        <sys_id>e44ebcb0476a21104a908a5f746d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1852,7 +2676,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 07:09:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2080,12 +2904,12 @@ weekdays.forEach(function(day, index) {
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=6ae56e4847e221104a908a5f746d4383^sys_idNOT IN164bb25c47e221104a908a5f746d435c,1a4bb25c47e221104a908a5f746d4363,924bb25c47e221104a908a5f746d4360"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6ae56e4847e221104a908a5f746d4383^sys_idNOT INb8da4878476621104a908a5f746d4367"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cf51148e-e656-4c8f-a6b8-f06a30c67f52</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8cd16c6c-1ac8-4fdb-a011-086cd0026602</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2095,7 +2919,7 @@ weekdays.forEach(function(day, index) {
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table/>
+        <choice_table>x_407566_adventu_0_transport_contract</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -2109,7 +2933,7 @@ weekdays.forEach(function(day, index) {
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>start_time</element>
+        <element>transportation_contract</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -2117,10 +2941,10 @@ weekdays.forEach(function(day, index) {
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Start Time</label>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Transportation Contract</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>32</max_length>
         <model display_value="Create Schedule">6ae56e4847e221104a908a5f746d4383</model>
         <model_id>6ae56e4847e221104a908a5f746d4383</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
@@ -2130,7 +2954,7 @@ weekdays.forEach(function(day, index) {
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_407566_adventu_0_transport_contract">x_407566_adventu_0_transport_contract</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -2142,16 +2966,16 @@ weekdays.forEach(function(day, index) {
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>164bb25c47e221104a908a5f746d435c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2023-04-29 03:25:04</sys_created_on>
+        <sys_id>b8da4878476621104a908a5f746d4367</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2164,175 +2988,7 @@ weekdays.forEach(function(day, index) {
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=164bb25c47e221104a908a5f746d435c"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fc435e2e-1ee5-44b3-b25d-fc9e344b1ade</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>early_release_end_time</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Early Release End Time</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Create Schedule">6ae56e4847e221104a908a5f746d4383</model>
-        <model_id>6ae56e4847e221104a908a5f746d4383</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>1a4bb25c47e221104a908a5f746d4363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a4bb25c47e221104a908a5f746d4363"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=16be1b86-e109-467b-aa30-1a787c373a2d</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>regular_end_time</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Regular End Time</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Create Schedule">6ae56e4847e221104a908a5f746d4383</model>
-        <model_id>6ae56e4847e221104a908a5f746d4383</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>924bb25c47e221104a908a5f746d4360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=924bb25c47e221104a908a5f746d4360"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8da4878476621104a908a5f746d4367"/>
     <sys_hub_action_output action="delete_multiple" query="model=6ae56e4847e221104a908a5f746d4383^sys_idNOT IN13b8de98476221104a908a5f746d43d4,7ee56e4847e221104a908a5f746d4398,c02726c847e221104a908a5f746d4326,e6e56e4847e221104a908a5f746d4394"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2438,7 +3094,7 @@ weekdays.forEach(function(day, index) {
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,visible_in_ui=false</attributes>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f3d64975-4a89-4d59-bccc-b5f17a8dd419,visible_in_ui=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2481,9 +3137,9 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_6ae56e4847e221104a908a5f746d4383</name>
         <next_element/>
-        <order>3</order>
+        <order>4</order>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -2499,14 +3155,14 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:15</sys_created_on>
         <sys_id>7ee56e4847e221104a908a5f746d4398</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:32</sys_updated_on>
+        <sys_updated_on>2023-04-29 16:57:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2612,7 +3268,7 @@ weekdays.forEach(function(day, index) {
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object</attributes>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a03f4e48-6085-4411-a71e-f29ced82a806</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2655,9 +3311,9 @@ weekdays.forEach(function(day, index) {
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_6ae56e4847e221104a908a5f746d4383</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -2673,14 +3329,14 @@ weekdays.forEach(function(day, index) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-27 06:47:15</sys_created_on>
         <sys_id>e6e56e4847e221104a908a5f746d4394</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 04:29:32</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2707,19 +3363,19 @@ weekdays.forEach(function(day, index) {
         <sys_updated_on>2023-04-27 06:47:15</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=32e56e4847e221104a908a5f746d43a2"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383^sys_idNOT IN5e4bb25c47e221104a908a5f746d4362,d24bb25c47e221104a908a5f746d4366,d64bb25c47e221104a908a5f746d435f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383^sys_idNOT IN78da4878476621104a908a5f746d4378"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>regular_end_time</element>
+        <element>transportation_contract</element>
         <help/>
         <hint/>
-        <label>Regular End Time</label>
+        <label>Transportation Contract</label>
         <language>en</language>
         <name>var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>5e4bb25c47e221104a908a5f746d4362</sys_id>
+        <sys_created_on>2023-04-29 03:25:04</sys_created_on>
+        <sys_id>78da4878476621104a908a5f746d4378</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
@@ -2727,53 +3383,7 @@ weekdays.forEach(function(day, index) {
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>early_release_end_time</element>
-        <help/>
-        <hint/>
-        <label>Early Release End Time</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>d24bb25c47e221104a908a5f746d4366</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>start_time</element>
-        <help/>
-        <hint/>
-        <label>Start Time</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_6ae56e4847e221104a908a5f746d4383</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-28 02:59:05</sys_created_on>
-        <sys_id>d64bb25c47e221104a908a5f746d435f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-28 02:59:05</sys_updated_on>
+        <sys_updated_on>2023-04-29 03:25:04</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

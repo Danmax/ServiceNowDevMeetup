@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Management">5faa0beb471221104a908a5f746d4383</applet_launcher>
+        <order/>
+        <section display_value="Recently Viewed">31fd80bb531323004c36ddeeff7b1273</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:24:15</sys_created_on>
+        <sys_id>2e16683447e621104a908a5f746d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_2e16683447e621104a908a5f746d43c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:24:15</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

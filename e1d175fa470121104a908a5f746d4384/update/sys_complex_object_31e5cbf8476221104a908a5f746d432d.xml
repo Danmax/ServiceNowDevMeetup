@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7de5cbf883622110e563fc5c68cfca2c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e1d175fa470121104a908a5f746d4384</scope_name>
+        <serialized_content>{"FlowDesigner:FD7de5cbf883622110e563fc5c68cfca2c":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7de5cbf883622110e563fc5c68cfca2c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"weekdays\",\"mandatory\":\"false\",\"child_name\":\"weekdays_child0\",\"uiUniqueId\":\"7ea2e002-dc1c-4e0e-a9d7-599a30622cfb\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD7de5cbf883622110e563fc5c68cfca2c\",\"child_label\":\"weekdays_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"987590c2-9a4a-4d30-bfd7-f662eb69bfe9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 17:02:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31e5cbf8476221104a908a5f746d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7de5cbf883622110e563fc5c68cfca2c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_complex_object_31e5cbf8476221104a908a5f746d432d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 17:02:26</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
