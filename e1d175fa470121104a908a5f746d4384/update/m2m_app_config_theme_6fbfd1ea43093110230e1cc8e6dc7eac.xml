@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">abbfd1ea180931103a1a8d6f04d232ac</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-06 02:42:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fbfd1ea43093110230e1cc8e6dc7eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>m2m_app_config_theme_6fbfd1ea43093110230e1cc8e6dc7eac</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-06 02:42:27</sys_updated_on>
+        <theme display_value="Light Theme">e3bfd1eaf5093110ae487798bb9f3cad</theme>
+        <ux_app_configuration display_value="Adventure Express Transport Config">93bfd1ea470931104a908a5f746d435c</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>send_eta</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Send ETA</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 22:32:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ee0c4e347d321104a908a5f746d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send ETA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9ee0c4e347d321104a908a5f746d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 22:32:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9ee0c4e347d321104a908a5f746d4323"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9ee0c4e347d321104a908a5f746d4323"/>
+</record_update>

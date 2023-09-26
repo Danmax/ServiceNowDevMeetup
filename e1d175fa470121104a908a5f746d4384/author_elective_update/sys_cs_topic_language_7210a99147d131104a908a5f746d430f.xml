@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="_PRVW__b2102111a1d13110d3fce385eedf045f">3610211147d131104a908a5f746d4366</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Affirmative</nlu_intent>
+        <nlu_intent_label>Affirmative</nlu_intent_label>
+        <nlu_model>Setup_Topics_Model</nlu_model>
+        <nlu_model_label>Setup Topics Model</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-14 15:47:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7210a99147d131104a908a5f746d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_cs_topic_language_7210a99147d131104a908a5f746d430f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-14 15:47:18</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_cs_topic_language_7210a99147d131104a908a5f746d430f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="_PRVW__b2102111a1d13110d3fce385eedf045f">3610211147d131104a908a5f746d4366</cs_topic_id><language_code>en</language_code><nlu_entities>[]</nlu_entities><nlu_intent>Affirmative</nlu_intent><nlu_intent_label>Affirmative</nlu_intent_label><nlu_model>Setup_Topics_Model</nlu_model><nlu_model_label>Setup Topics Model</nlu_model_label><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-14 15:47:18</sys_created_on><sys_domain>global</sys_domain><sys_id>7210a99147d131104a908a5f746d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_cs_topic_language_7210a99147d131104a908a5f746d430f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-14 15:47:18</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-748667002</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-14 15:47:18</sys_created_on>
+        <sys_id>3210a99147d131104a908a5f746d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a946012730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-14 15:47:18</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>7610a99166d131104ee50562aadc0d10</update_guid>
+        <update_guid_history>7610a99166d131104ee50562aadc0d10:-748667002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-15 04:08:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>0a3173678a284d46960b4abaa8878141</sys_id>
+        <sys_metadata>7210a99147d131104a908a5f746d430f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_7210a99147d131104a908a5f746d430f</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_7210a99147d131104a908a5f746d430f">3210a99147d131104a908a5f746d4311</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-15 04:08:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
