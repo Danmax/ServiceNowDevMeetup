@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ais_relevancy_solution_definition">
+    <ais_relevancy_solution_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Search Relevancy">458c3b2ab72300100e173307fe11a923</capability>
+        <current_solution_version/>
+        <dataset_language>en</dataset_language>
+        <fields>signal_json</fields>
+        <filter table="ais_relevancy_training_staging">sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^search_profile=1e07a1a583ad6110691c93d36964425f^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()"/>
+            <item display_table="ais_search_profile" display_value="adventure-express search profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="1e07a1a583ad6110691c93d36964425f"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <profile display_value="adventure-express search profile">1e07a1a583ad6110691c93d36964425f</profile>
+        <request_source>api</request_source>
+        <solution_label>ais_relevancy_1e07a1a583ad6110691c93d36964425f</solution_label>
+        <solution_name>ml_x_snc_sn_workspace_start_global_ais_relevancy_1e07a1a583ad6110691c93d36964425f</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"trainingMode":"generateFeatureVectorsandTrain","algorithm":"liblinear"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ais_relevancy_solution_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 01:00:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a07a1a5a1ad6110deceee3bd3f6fd60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ais_relevancy_1e07a1a583ad6110691c93d36964425f</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>ais_relevancy_solution_definition_5a07a1a5a1ad6110deceee3bd3f6fd60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 01:00:37</sys_updated_on>
+        <table>ais_relevancy_training_staging</table>
+        <training_frequency>every_30_days</training_frequency>
+        <triggered_source/>
+        <word_vector_corpus/>
+    </ais_relevancy_solution_definition>
+</record_update>

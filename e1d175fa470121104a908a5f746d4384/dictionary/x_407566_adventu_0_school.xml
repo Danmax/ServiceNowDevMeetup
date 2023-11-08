@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9142635947d121104a908a5f746d4334" label="School" max_length="40" name="x_407566_adventu_0_school" text_index="true" type="collection">
-        <element label="Active" max_length="40" name="active" type="string"/>
-        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Address" max_length="140" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Early Release Day" max_length="40" name="early_release_day" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monday" sequence="1" value="monday"/>
+                <element inactive_on_update="false" label="Tuesday" sequence="2" value="tuesday"/>
+                <element inactive_on_update="false" label="Wednesday" sequence="3" value="wednesday"/>
+                <element inactive_on_update="false" label="Thursday" sequence="4" value="thursday"/>
+                <element inactive_on_update="false" label="Friday" sequence="5" value="friday"/>
+            </choice>
+        </element>
+        <element label="Early Release End Time" max_length="40" name="early_release_end_time" type="string"/>
         <element label="Grades" max_length="40" name="grades" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Logo" max_length="40" name="logo" type="user_image"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="Primary Contact" max_length="32" name="primary_contact" reference="sys_user" type="reference"/>
+        <element label="Regular End Time" max_length="40" name="regular_end_time" type="string"/>
+        <element label="Regular Start Time" max_length="40" name="regular_start_time" type="string"/>
         <element label="Type" max_length="40" name="type" type="string"/>
         <element label="website" max_length="40" name="website" type="url"/>
         <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
             <element name="primary_contact"/>
         </index>
     </element>

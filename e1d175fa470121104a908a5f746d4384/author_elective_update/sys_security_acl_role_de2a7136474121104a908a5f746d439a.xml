@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 03:05:11</sys_created_on>
+        <sys_id>de2a7136474121104a908a5f746d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_transport_contract.x_407566_adventu_0.admin</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_security_acl display_value="x_407566_adventu_0_transport_contract">de2a7136474121104a908a5f746d4397</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_de2a7136474121104a908a5f746d439a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 03:05:11</sys_updated_on>
+        <sys_user_role display_value="x_407566_adventu_0.admin" name="x_407566_adventu_0.admin">69d175fa470121104a908a5f746d43e7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_security_acl_role_de2a7136474121104a908a5f746d439a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 03:05:11</sys_created_on>
+        <sys_id>de2a7136474121104a908a5f746d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_transport_contract.x_407566_adventu_0.admin</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_security_acl display_value="x_407566_adventu_0_transport_contract">de2a7136474121104a908a5f746d4397</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_de2a7136474121104a908a5f746d439a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 03:05:11</sys_updated_on>
+        <sys_user_role display_value="x_407566_adventu_0.admin" name="x_407566_adventu_0.admin">69d175fa470121104a908a5f746d43e7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-2061000071</payload_hash>
+        <record_name>x_407566_adventu_0_transport_contract.x_407566_adventu_0.admin</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:51:08</sys_created_on>
+        <sys_id>a12b7ecd472521104a908a5f746d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cc3d3e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:51:08</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>612b7ecd652521108c72f032845d6fcc</update_guid>
+        <update_guid_history>612b7ecd652521108c72f032845d6fcc:-2061000071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_407566_adventu_0_transport_contract.x_407566_adventu_0.admin">5cf19a4447a221104a908a5f746d43b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 05:19:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>55e9e6825f1a418ca1fe5d50f95e6704</sys_id>
+        <sys_metadata>de2a7136474121104a908a5f746d439a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_transport_contract.x_407566_adventu_0.admin</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="">de2a7136474121104a908a5f746d4397</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_de2a7136474121104a908a5f746d439a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_de2a7136474121104a908a5f746d439a">a12b7ecd472521104a908a5f746d43cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 05:19:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

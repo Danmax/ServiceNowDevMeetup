@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="DELETE">
+        <center_address>Saint Cloud, Fl</center_address>
+        <center_latitude>28.2489016</center_latitude>
+        <center_longitude>-81.2811801</center_longitude>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>15</initial_zoom>
+        <name>x_407566_adventu_0_Dream Center</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[var gr = new GlideRecord("x_407566_adventu_0_school");
+gr.addQuery('active', 'true');
+gr.addActiveQuery();
+gr.query();
+while (gr.next()) {
+    if (gr.location.latitude && gr.location.longitude) {
+        var item = map.addItem(gr);
+        item.latitude = String(gr.location.latitude);
+        item.longitude = String(gr.location.longitude);
+        item.dialog_title = gr.getDisplayValue();
+        item.icon = "https://maps.google.com/mapfiles/kml/pal3/icon51.png";
+        item.icon_width = "32";
+        item.icon_height = "32";
+    }
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Dream Center</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 22:30:58</sys_created_on>
+        <sys_id>a2d3bf85472921104a908a5f746d4346</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_407566_adventu_0_Dream Center</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>cmn_map_page_a2d3bf85472921104a908a5f746d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 22:34:13</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>cmn_map_page_a2d3bf85472921104a908a5f746d4346</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_page"&gt;&lt;cmn_map_page action="INSERT_OR_UPDATE"&gt;&lt;center_address&gt;Saint Cloud, Fl&lt;/center_address&gt;&lt;center_latitude&gt;28.2489016&lt;/center_latitude&gt;&lt;center_longitude&gt;-81.2811801&lt;/center_longitude&gt;&lt;controls_size&gt;large&lt;/controls_size&gt;&lt;coordinates_retrieved_on/&gt;&lt;disable_map_controls/&gt;&lt;disable_nav_bar&gt;false&lt;/disable_nav_bar&gt;&lt;filter/&gt;&lt;initial_zoom&gt;15&lt;/initial_zoom&gt;&lt;name&gt;x_407566_adventu_0_Dream Center&lt;/name&gt;&lt;overview&gt;false&lt;/overview&gt;&lt;refresh_on_zoom&gt;false&lt;/refresh_on_zoom&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[var gr = new GlideRecord("x_407566_adventu_0_school");
+gr.addQuery('active', 'true');
+gr.addActiveQuery();
+gr.query();
+while (gr.next()) {
+    if (gr.location.latitude &amp;&amp; gr.location.longitude) {
+        var item = map.addItem(gr);
+        item.latitude = String(gr.location.latitude);
+        item.longitude = String(gr.location.longitude);
+        item.dialog_title = gr.getDisplayValue();
+        item.icon = "https://maps.google.com/mapfiles/kml/pal3/icon51.png";
+        item.icon_width = "32";
+        item.icon_height = "32";
+    }
+}]]&gt;&lt;/script&gt;&lt;show_device_location&gt;true&lt;/show_device_location&gt;&lt;suffix&gt;Dream Center&lt;/suffix&gt;&lt;sys_class_name&gt;cmn_map_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-11 22:30:58&lt;/sys_created_on&gt;&lt;sys_id&gt;a2d3bf85472921104a908a5f746d4346&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_407566_adventu_0_Dream Center&lt;/sys_name&gt;&lt;sys_package display_value="Adventure Express" source="x_407566_adventu_0"&gt;e1d175fa470121104a908a5f746d4384&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Adventure Express"&gt;e1d175fa470121104a908a5f746d4384&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_page_a2d3bf85472921104a908a5f746d4346&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-11 22:34:13&lt;/sys_updated_on&gt;&lt;type&gt;normal&lt;/type&gt;&lt;type_selection&gt;buttons&lt;/type_selection&gt;&lt;use_advanced_configuration&gt;false&lt;/use_advanced_configuration&gt;&lt;/cmn_map_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>981973517</payload_hash>
+        <record_name>x_407566_adventu_0_Dream Center</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 22:34:13</sys_created_on>
+        <sys_id>d4fb7b8d472921104a908a5f746d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d2cf68da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 22:34:13</sys_updated_on>
+        <type>Map Page</type>
+        <update_guid>dcfb7b8d1e292110a744061634e0bede</update_guid>
+        <update_guid_history>dcfb7b8d1e292110a744061634e0bede:981973517,aecbff4dff292110fec91d9faf19070c:-1351828553,37abb78d10292110bff83777164b067f:1219568754,da7b3f4d352921103c1aebd44b66079f:-613545739,ec3b730d37292110f36ee3cf8a5e7b0f:1392081798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_407566_adventu_0_Dream Center">ca9ebf01476921104a908a5f746d43e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 22:45:49</sys_created_on>
+        <sys_db_object display_value="" name="cmn_map_page">cmn_map_page</sys_db_object>
+        <sys_id>0e6b5b2e4b9446c481bc07a7c2575564</sys_id>
+        <sys_metadata>a2d3bf85472921104a908a5f746d4346</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_adventu_0_Dream Center</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>cmn_map_page_a2d3bf85472921104a908a5f746d4346</sys_update_name>
+        <sys_update_version display_value="cmn_map_page_a2d3bf85472921104a908a5f746d4346">d4fb7b8d472921104a908a5f746d43df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 22:45:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

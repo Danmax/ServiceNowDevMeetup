@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e550af9547d121104a908a5f746d43be" label="Maintenance Record" max_length="40" name="x_407566_adventu_0_maintenance_record" text_index="true" type="collection">
+    <element audit="true" db_object_id="e550af9547d121104a908a5f746d43be" label="Maintenance Record" max_length="40" name="x_407566_adventu_0_maintenance_record" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element choice="1" label="Category" max_length="40" name="category" type="choice">
             <choice>
@@ -27,15 +27,15 @@
         </element>
         <element label="Cost" max_length="40" name="cost" type="currency"/>
         <element label="Date Completed" max_length="40" name="date_completed" type="glide_date"/>
-        <element label="Details" max_length="40" name="details" type="journal"/>
-        <element label="Due Date" max_length="40" name="due_date" type="due_date"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element label="duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="Mileage" max_length="40" name="mileage" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_407566_adventu_0_maintenance_record" type="reference"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Service by" max_length="32" name="service_by" reference="sys_user" type="reference"/>
-        <element label="Service Offering" max_length="40" name="service_offering" type="string"/>
-        <element label="Short Description" max_length="140" name="short_description" type="string"/>
+        <element label="Service Offering" max_length="140" name="service_offering" type="string"/>
+        <element label="Short Description" max_length="240" name="short_description" type="string"/>
         <element choice="3" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
@@ -48,7 +48,17 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="7" value="cancelled"/>
             </choice>
         </element>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+                <element inactive_on_update="false" label="Emergency" sequence="1" value="emergency"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="2" value="maintenance"/>
+                <element inactive_on_update="false" label="Custom" sequence="3" value="custom"/>
+            </choice>
+        </element>
         <element label="Vehicle" max_length="32" name="vehicle" reference="x_407566_adventu_0_vehicle" type="reference"/>
+        <element label="Work Notes" max_length="40" name="work_notes" type="journal_input"/>
+        <element label="Work Notes List" max_length="40" name="work_notes_list" type="journal_list"/>
         <index name="index">
             <element name="requested_by"/>
         </index>

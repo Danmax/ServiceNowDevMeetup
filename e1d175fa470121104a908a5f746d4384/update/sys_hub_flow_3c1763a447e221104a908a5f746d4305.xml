@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>38a2676047e221104a908a5f746d43ef</copied_from>
+        <copied_from_name>Create Transport Records</copied_from_name>
+        <description/>
+        <internal_name>create_transport_records_v2</internal_name>
+        <label_cache>[{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent","label":"1 - Look Up Record➛Transport Contract Record➛Parent","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"parent"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent.location","label":"1 - Look Up Record➛Transport Contract Record➛Parent➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_parent","column_name":"location"},{"name":"subflow.student","label":"Input➛Student","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"40ab67b1-a7b2-4835-bad8-add3c4063ab1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.active_contracts","label":"Input➛Active Contracts","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"records","base_type":"records","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0f110b85-ba8a-4c39-b9f7-e48ebba335f5"}},{"name":"baffbe03-1388-442e-9f54-03a4c799dc09.Records","label":"1 - Look Up Records➛Transport Contract Records","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5651fd74-fff9-4829-bc01-057ee738089e.context.calling_source","label":"4➛Context➛Calling Source","reference":"","reference_display":"Calling Source","type":"string","base_type":"string","parent_table_name":"sys_flow_context","column_name":"calling_source"},{"name":"706a72e1-3ea0-4484-a0b6-7dbc62e2a204.weekdays","label":"2 - Get Weekdays➛weekdays","reference_display":"weekdays","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD828b9d154f6a611023a66f5b5e6b0165","child_label":"weekdays_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"weekdays_child0","child_uiUniqueId":"ecbbb934-fb8e-45ba-95d1-9b7d06553356","uiUniqueId":"37f68b01-1e46-4528-8e7c-814a3f39e5c4"}},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record","label":"1 - Look Up Record➛Transport Contract Record","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53e6b60f-5b88-4661-8201-362baecca87b.item","label":"3 - For Each➛weekdays_child0","reference_display":"weekdays_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.regular_start_time","label":"1 - Look Up Record➛Transport Contract Record➛School➛Regular Start Time","reference":"","reference_display":"Regular Start Time","type":"string","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_start_time"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.location","label":"1 - Look Up Record➛Transport Contract Record➛School➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_school","column_name":"location"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.home_pickup_location","label":"1 - Look Up Record➛Transport Contract Record➛Home Pickup Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"home_pickup_location"},{"name":"af5a3451-cc7f-427d-a01b-bce76d42c73a.result","label":"4 - GetNextWeekDate➛result","reference_display":"result","type":"datetime","base_type":"datetime","attributes":{"uiType":"datetime","uiTypeLabel":"Basic Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5b7426f0-a051-4a53-8ddf-9b5a2b63f985"}}]</label_cache>
+        <master_snapshot>fbfb24f847e621104a908a5f746d43bb</master_snapshot>
+        <name>Create Transport Records v2</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 00:48:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c1763a447e221104a908a5f746d4305</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Create Transport Records v2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_hub_flow_3c1763a447e221104a908a5f746d4305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:56</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c1763a447e221104a908a5f746d4305"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3c1763a447e221104a908a5f746d4305"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305^id=3c1763a447e221104a908a5f746d4305"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3c1763a447e221104a908a5f746d4305"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3c1763a447e221104a908a5f746d4305"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3c1763a447e221104a908a5f746d4305^sys_idNOT INf41763a447e221104a908a5f746d4306"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3c1763a447e221104a908a5f746d4305</id>
+        <name>Create Transport Records v2</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 00:48:52</sys_created_on>
+        <sys_id>f41763a447e221104a908a5f746d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 00:48:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f41763a447e221104a908a5f746d4306"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3c1763a447e221104a908a5f746d4305^sys_idNOT IN6425f074472a21104a908a5f746d4371"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=40ab67b1-a7b2-4835-bad8-add3c4063ab1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_407566_adventu_0_student</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Student</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</model>
+        <model_id>3c1763a447e221104a908a5f746d4305</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3c1763a447e221104a908a5f746d4305</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_adventu_0_student">x_407566_adventu_0_student</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:29:56</sys_created_on>
+        <sys_id>6425f074472a21104a908a5f746d4371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:29:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=3c1763a447e221104a908a5f746d4305^sys_idNOT INa425f074472a21104a908a5f746d4377,fe42f4b0472a21104a908a5f746d4375"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=964d4177-9209-405b-9e37-043a62aa9e3c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_407566_adventu_0_maintenance_record</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</model>
+        <model_id>3c1763a447e221104a908a5f746d4305</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_adventu_0_maintenance_record">x_407566_adventu_0_maintenance_record</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:29:56</sys_created_on>
+        <sys_id>a425f074472a21104a908a5f746d4377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:29:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9786347e-a0d4-4fcf-8b29-b22bbcf0b740</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</model>
+        <model_id>3c1763a447e221104a908a5f746d4305</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:17:31</sys_created_on>
+        <sys_id>fe42f4b0472a21104a908a5f746d4375</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:29:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c1763a447e221104a908a5f746d4305"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3c1763a447e221104a908a5f746d4305^sys_idNOT IN03b06d59476a61104a908a5f746d43a5,03b06d59476a61104a908a5f746d43ae,52dcb95947ea61104a908a5f746d4314,639addd1476a61104a908a5f746d43b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>03b06d59476a61104a908a5f746d43a5</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:22:57</sys_updated_on>
+        <ui_id>210ef50e-194d-4ebf-ae37-6f46d6bc91aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03b06d59476a61104a908a5f746d43a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>03b06d59476a61104a908a5f746d43a5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>0fb06d59476a61104a908a5f746d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <value>x_407566_adventu_0_transport_contract</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=03b06d59476a61104a908a5f746d43a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>03b06d59476a61104a908a5f746d43a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>c7b06d59476a61104a908a5f746d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>active=true^student={{subflow.student}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>03b06d59476a61104a908a5f746d43a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>8bb06d59476a61104a908a5f746d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=03b06d59476a61104a908a5f746d43a5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=03b06d59476a61104a908a5f746d43a5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Weekdays">028b9d15476a61104a908a5f746d4352</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>03b06d59476a61104a908a5f746d43ae</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:22:57</sys_updated_on>
+        <ui_id>706a72e1-3ea0-4484-a0b6-7dbc62e2a204</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03b06d59476a61104a908a5f746d43ae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=03b06d59476a61104a908a5f746d43ae"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=03b06d59476a61104a908a5f746d43ae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="GetNextWeekDate">7f04f1dd47aa61104a908a5f746d4348</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</flow>
+        <order>4</order>
+        <parent_ui_id>53e6b60f-5b88-4661-8201-362baecca87b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:00:14</sys_created_on>
+        <sys_id>52dcb95947ea61104a908a5f746d4314</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:22:57</sys_updated_on>
+        <ui_id>af5a3451-cc7f-427d-a01b-bce76d42c73a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=52dcb95947ea61104a908a5f746d4314"/>
+    <sys_element_mapping action="delete_multiple" query="id=52dcb95947ea61104a908a5f746d4314"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>weekday</field>
+        <id>52dcb95947ea61104a908a5f746d4314</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:00:14</sys_created_on>
+        <sys_id>9edcb95947ea61104a908a5f746d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:00:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7f04f1dd47aa61104a908a5f746d4348</table>
+        <value>{{53e6b60f-5b88-4661-8201-362baecca87b.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=52dcb95947ea61104a908a5f746d4314"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=52dcb95947ea61104a908a5f746d4314"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</flow>
+        <order>5</order>
+        <parent_ui_id>53e6b60f-5b88-4661-8201-362baecca87b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:30:41</sys_created_on>
+        <sys_id>639addd1476a61104a908a5f746d43b6</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:22:57</sys_updated_on>
+        <ui_id>bfa62d38-3902-4ccb-ba3e-8b77426444a9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=639addd1476a61104a908a5f746d43b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>639addd1476a61104a908a5f746d43b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>0bb06d59476a61104a908a5f746d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <value>x_407566_adventu_0_transportation</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=639addd1476a61104a908a5f746d43b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>639addd1476a61104a908a5f746d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>c3b06d59476a61104a908a5f746d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>639addd1476a61104a908a5f746d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>87b06d59476a61104a908a5f746d43b7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>active=true^contract={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record}}^pickup_location={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent.location}}^drop_off_location={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.location}}^school_start_time={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.regular_start_time}}^school_end_time=fd-scripted^weekday={{53e6b60f-5b88-4661-8201-362baecca87b.item}}^type=to_school^state=scheduled^student={{subflow.student}}^pickup_date={{af5a3451-cc7f-427d-a01b-bce76d42c73a.result}}^notes=Created by Automation CTR v2^parent={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=639addd1476a61104a908a5f746d43b6^sys_idNOT IN87b06d59476a61104a908a5f746d43b6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>639addd1476a61104a908a5f746d43b6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"school_end_time":{"scriptActive":true,"script":"var weekday \u003d fd_data._3__for_each.item;\n\nvar regularEndTime \u003d fd_data._1__look_up_record.record.school.regular_end_time;\nvar earlyEndTime \u003d fd_data._1__look_up_record.record.school.early_release_end_time;\nvar endTime;\n\nif(weekday \u003d\u003d \"Wednesday\"){\n    endTime \u003d earlyEndTime;\n}\nelse {\n    endTime \u003d regularEndTime;\n}\n\nreturn endTime;\n\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>87b06d59476a61104a908a5f746d43b6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:08:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=639addd1476a61104a908a5f746d43b6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3c1763a447e221104a908a5f746d4305"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3c1763a447e221104a908a5f746d4305^sys_idNOT INaf9addd1476a61104a908a5f746d43af"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">eb9addd1476a61104a908a5f746d43af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:30:41</sys_created_on>
+        <sys_id>af9addd1476a61104a908a5f746d43af</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:56</sys_updated_on>
+        <ui_id>53e6b60f-5b88-4661-8201-362baecca87b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af9addd1476a61104a908a5f746d43af"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c1763a447e221104a908a5f746d4305^id=af9addd1476a61104a908a5f746d43af"/>
+    <sys_element_mapping action="delete_multiple" query="id=af9addd1476a61104a908a5f746d43af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>af9addd1476a61104a908a5f746d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:57:24</sys_created_on>
+        <sys_id>43b06d59476a61104a908a5f746d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:57:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{706a72e1-3ea0-4484-a0b6-7dbc62e2a204.weekdays}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305^id=af9addd1476a61104a908a5f746d43af"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=af9addd1476a61104a908a5f746d43af"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=af9addd1476a61104a908a5f746d43af"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3c1763a447e221104a908a5f746d4305"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3c1763a447e221104a908a5f746d4305^sys_idNOT INef9addd1476a61104a908a5f746d439e"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=20db3c0c-e152-4001-a6ae-841bdb676193</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>weekdays</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Weekdays</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</model>
+        <model_id>3c1763a447e221104a908a5f746d4305</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3c1763a447e221104a908a5f746d4305</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-30 22:30:40</sys_created_on>
+        <sys_id>ef9addd1476a61104a908a5f746d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-30 22:30:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3c1763a447e221104a908a5f746d4305^sys_idNOT IN2425f074472a21104a908a5f746d4375"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>student</element>
+        <help/>
+        <hint/>
+        <label>Student</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3c1763a447e221104a908a5f746d4305</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:29:56</sys_created_on>
+        <sys_id>2425f074472a21104a908a5f746d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:29:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3c1763a447e221104a908a5f746d4305"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305^sys_idNOT IN3642f4b0472a21104a908a5f746d4379,6025f074472a21104a908a5f746d437b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:17:31</sys_created_on>
+        <sys_id>3642f4b0472a21104a908a5f746d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:17:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:29:56</sys_created_on>
+        <sys_id>6025f074472a21104a908a5f746d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:29:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3c1763a447e221104a908a5f746d4305"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3c1763a447e221104a908a5f746d4305"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3c1763a447e221104a908a5f746d4305^sys_idNOT IN100c64f847e621104a908a5f746d4336"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"100c64f847e621104a908a5f746d4336","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</plan_id>
+        <snapshot>8702ce11472e61104a908a5f746d43db</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:50:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>100c64f847e621104a908a5f746d4336</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:56</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>38a2676047e221104a908a5f746d43ef</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_transport_records_v2</internal_name>
+        <label_cache>[{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent","label":"1 - Look Up Record➛Transport Contract Record➛Parent","reference":"x_407566_adventu_0_parent","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"parent"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent.location","label":"1 - Look Up Record➛Transport Contract Record➛Parent➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_parent","column_name":"location"},{"name":"subflow.student","label":"Input➛Student","reference":"x_407566_adventu_0_student","reference_display":"Student","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"40ab67b1-a7b2-4835-bad8-add3c4063ab1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.active_contracts","label":"Input➛Active Contracts","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"records","base_type":"records","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0f110b85-ba8a-4c39-b9f7-e48ebba335f5"}},{"name":"baffbe03-1388-442e-9f54-03a4c799dc09.Records","label":"1 - Look Up Records➛Transport Contract Records","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5651fd74-fff9-4829-bc01-057ee738089e.context.calling_source","label":"4➛Context➛Calling Source","reference":"","reference_display":"Calling Source","type":"string","base_type":"string","parent_table_name":"sys_flow_context","column_name":"calling_source"},{"name":"706a72e1-3ea0-4484-a0b6-7dbc62e2a204.weekdays","label":"2 - Get Weekdays➛weekdays","reference_display":"weekdays","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD828b9d154f6a611023a66f5b5e6b0165","child_label":"weekdays_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"weekdays_child0","child_uiUniqueId":"ecbbb934-fb8e-45ba-95d1-9b7d06553356","uiUniqueId":"37f68b01-1e46-4528-8e7c-814a3f39e5c4"}},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record","label":"1 - Look Up Record➛Transport Contract Record","reference":"x_407566_adventu_0_transport_contract","reference_display":"Transport Contract","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53e6b60f-5b88-4661-8201-362baecca87b.item","label":"3 - For Each➛weekdays_child0","reference_display":"weekdays_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.regular_start_time","label":"1 - Look Up Record➛Transport Contract Record➛School➛Regular Start Time","reference":"","reference_display":"Regular Start Time","type":"string","base_type":"string","parent_table_name":"x_407566_adventu_0_school","column_name":"regular_start_time"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.location","label":"1 - Look Up Record➛Transport Contract Record➛School➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_school","column_name":"location"},{"name":"210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.home_pickup_location","label":"1 - Look Up Record➛Transport Contract Record➛Home Pickup Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_407566_adventu_0_transport_contract","column_name":"home_pickup_location"},{"name":"af5a3451-cc7f-427d-a01b-bce76d42c73a.result","label":"4 - GetNextWeekDate➛result","reference_display":"result","type":"datetime","base_type":"datetime","attributes":{"uiType":"datetime","uiTypeLabel":"Basic Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5b7426f0-a051-4a53-8ddf-9b5a2b63f985"}}]</label_cache>
+        <master>true</master>
+        <name>Create Transport Records v2</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Transport Records v2">3c1763a447e221104a908a5f746d4305</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:50:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbfb24f847e621104a908a5f746d43bb</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb^id=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fbfb24f847e621104a908a5f746d43bb^sys_idNOT IN77fb24f847e621104a908a5f746d43bc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fbfb24f847e621104a908a5f746d43bb</id>
+        <name>Create Transport Records v2</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 05:50:01</sys_created_on>
+        <sys_id>77fb24f847e621104a908a5f746d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:50:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=77fb24f847e621104a908a5f746d43bc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fbfb24f847e621104a908a5f746d43bb^sys_idNOT IN4bc534b4472a21104a908a5f746d43b1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=40ab67b1-a7b2-4835-bad8-add3c4063ab1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_407566_adventu_0_student</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Student</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</model>
+        <model_id>fbfb24f847e621104a908a5f746d43bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fbfb24f847e621104a908a5f746d43bb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_adventu_0_student">x_407566_adventu_0_student</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:32:49</sys_created_on>
+        <sys_id>4bc534b4472a21104a908a5f746d43b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:32:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=fbfb24f847e621104a908a5f746d43bb^sys_idNOT IN2f4238b0472a21104a908a5f746d4349,c7c534b4472a21104a908a5f746d43c6"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9786347e-a0d4-4fcf-8b29-b22bbcf0b740</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</model>
+        <model_id>fbfb24f847e621104a908a5f746d43bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:17:34</sys_created_on>
+        <sys_id>2f4238b0472a21104a908a5f746d4349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:32:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=964d4177-9209-405b-9e37-043a62aa9e3c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_407566_adventu_0_maintenance_record</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</model>
+        <model_id>fbfb24f847e621104a908a5f746d43bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_adventu_0_maintenance_record">x_407566_adventu_0_maintenance_record</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:32:50</sys_created_on>
+        <sys_id>c7c534b4472a21104a908a5f746d43c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:32:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fbfb24f847e621104a908a5f746d43bb^sys_idNOT IN501e75d947ea61104a908a5f746d43a7,5c1e75d947ea61104a908a5f746d4393,5c1e75d947ea61104a908a5f746d439e,5c1e75d947ea61104a908a5f746d43ad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="GetNextWeekDate">7f04f1dd47aa61104a908a5f746d4348</action_type>
+        <action_type_parent display_value="GetNextWeekDate">0d8ba19547aa61104a908a5f746d4389</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</flow>
+        <order>4</order>
+        <parent_ui_id>53e6b60f-5b88-4661-8201-362baecca87b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>501e75d947ea61104a908a5f746d43a7</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <ui_id>af5a3451-cc7f-427d-a01b-bce76d42c73a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=501e75d947ea61104a908a5f746d43a7"/>
+    <sys_element_mapping action="delete_multiple" query="id=501e75d947ea61104a908a5f746d43a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>weekday</field>
+        <id>501e75d947ea61104a908a5f746d43a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>901e75d947ea61104a908a5f746d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7f04f1dd47aa61104a908a5f746d4348</table>
+        <value>{{53e6b60f-5b88-4661-8201-362baecca87b.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=501e75d947ea61104a908a5f746d43a7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=501e75d947ea61104a908a5f746d43a7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>5c1e75d947ea61104a908a5f746d4393</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <ui_id>210ef50e-194d-4ebf-ae37-6f46d6bc91aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c1e75d947ea61104a908a5f746d4393"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5c1e75d947ea61104a908a5f746d4393</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>541e75d947ea61104a908a5f746d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <value>x_407566_adventu_0_transport_contract</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c1e75d947ea61104a908a5f746d4393"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5c1e75d947ea61104a908a5f746d4393</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>1c1e75d947ea61104a908a5f746d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>active=true^student={{subflow.student}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5c1e75d947ea61104a908a5f746d4393</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>d01e75d947ea61104a908a5f746d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c1e75d947ea61104a908a5f746d4393"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1e75d947ea61104a908a5f746d4393"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Weekdays">028b9d15476a61104a908a5f746d4352</action_type>
+        <action_type_parent display_value="Get Weekdays">ad0b1515476a61104a908a5f746d4364</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>5c1e75d947ea61104a908a5f746d439e</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <ui_id>706a72e1-3ea0-4484-a0b6-7dbc62e2a204</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c1e75d947ea61104a908a5f746d439e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c1e75d947ea61104a908a5f746d439e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1e75d947ea61104a908a5f746d439e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</flow>
+        <order>5</order>
+        <parent_ui_id>53e6b60f-5b88-4661-8201-362baecca87b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>5c1e75d947ea61104a908a5f746d43ad</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <ui_id>bfa62d38-3902-4ccb-ba3e-8b77426444a9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c1e75d947ea61104a908a5f746d43ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5c1e75d947ea61104a908a5f746d43ad</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>181e75d947ea61104a908a5f746d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <value>x_407566_adventu_0_transportation</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c1e75d947ea61104a908a5f746d43ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5c1e75d947ea61104a908a5f746d43ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>d01e75d947ea61104a908a5f746d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5c1e75d947ea61104a908a5f746d43ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>941e75d947ea61104a908a5f746d43af</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>active=true^contract={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record}}^pickup_location={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent.location}}^drop_off_location={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.location}}^school_start_time={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.school.regular_start_time}}^school_end_time=fd-scripted^weekday={{53e6b60f-5b88-4661-8201-362baecca87b.item}}^type=to_school^state=scheduled^student={{subflow.student}}^pickup_date={{af5a3451-cc7f-427d-a01b-bce76d42c73a.result}}^notes=Created by Automation CTR v2^parent={{210ef50e-194d-4ebf-ae37-6f46d6bc91aa.Record.parent}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c1e75d947ea61104a908a5f746d43ad^sys_idNOT INd81e75d947ea61104a908a5f746d43ae"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>5c1e75d947ea61104a908a5f746d43ad</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"school_end_time":{"scriptActive":true,"script":"var weekday \u003d fd_data._3__for_each.item;\n\nvar regularEndTime \u003d fd_data._1__look_up_record.record.school.regular_end_time;\nvar earlyEndTime \u003d fd_data._1__look_up_record.record.school.early_release_end_time;\nvar endTime;\n\nif(weekday \u003d\u003d \"Wednesday\"){\n    endTime \u003d earlyEndTime;\n}\nelse {\n    endTime \u003d regularEndTime;\n}\n\nreturn endTime;\n\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>d81e75d947ea61104a908a5f746d43ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:09:38</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1e75d947ea61104a908a5f746d43ad"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fbfb24f847e621104a908a5f746d43bb^sys_idNOT INd01e75d947ea61104a908a5f746d43b0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">eb9addd1476a61104a908a5f746d43af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>d01e75d947ea61104a908a5f746d43b0</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:19:55</sys_updated_on>
+        <ui_id>53e6b60f-5b88-4661-8201-362baecca87b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_fbfb24f847e621104a908a5f746d43bb^id=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_element_mapping action="delete_multiple" query="id=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>d01e75d947ea61104a908a5f746d43b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>181e75d947ea61104a908a5f746d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{706a72e1-3ea0-4484-a0b6-7dbc62e2a204.weekdays}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb^id=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d01e75d947ea61104a908a5f746d43b0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fbfb24f847e621104a908a5f746d43bb^sys_idNOT INdc1e75d947ea61104a908a5f746d4385"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=20db3c0c-e152-4001-a6ae-841bdb676193</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>weekdays</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Weekdays</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Transport Records v2">fbfb24f847e621104a908a5f746d43bb</model>
+        <model_id>fbfb24f847e621104a908a5f746d43bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_fbfb24f847e621104a908a5f746d43bb</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 01:05:33</sys_created_on>
+        <sys_id>dc1e75d947ea61104a908a5f746d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 01:05:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fbfb24f847e621104a908a5f746d43bb^sys_idNOT INcbc534b4472a21104a908a5f746d43c1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>student</element>
+        <help/>
+        <hint/>
+        <label>Student</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fbfb24f847e621104a908a5f746d43bb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:32:50</sys_created_on>
+        <sys_id>cbc534b4472a21104a908a5f746d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:32:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb^sys_idNOT IN8fc534b4472a21104a908a5f746d43ce,a74238b0472a21104a908a5f746d4356"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:32:50</sys_created_on>
+        <sys_id>8fc534b4472a21104a908a5f746d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:32:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 06:17:34</sys_created_on>
+        <sys_id>a74238b0472a21104a908a5f746d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 06:17:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fbfb24f847e621104a908a5f746d43bb"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>3c1763a447e221104a908a5f746d4305</sys_id>
+        <latest_snapshot>fbfb24f847e621104a908a5f746d43bb</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

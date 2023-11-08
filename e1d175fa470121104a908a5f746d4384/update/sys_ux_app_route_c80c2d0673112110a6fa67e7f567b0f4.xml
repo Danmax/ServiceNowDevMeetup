@@ -8,7 +8,7 @@
         <name>List</name>
         <optional_parameters>listId,configId,tinyId</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>list</route_type>
         <screen_type display_value="List">440c2d060211211065fe60d0a47292f6</screen_type>

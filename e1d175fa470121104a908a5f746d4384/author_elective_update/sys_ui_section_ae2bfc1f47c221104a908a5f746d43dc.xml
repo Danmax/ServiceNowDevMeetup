@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Ralationships" section_id="ae2bfc1f47c221104a908a5f746d43dc" sys_domain="global" table="x_407566_adventu_0_student" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:49:42</sys_created_on>
+            <sys_id>222bfc1f47c221104a908a5f746d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="Ralationships" display_value="Ralationships" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">ae2bfc1f47c221104a908a5f746d43dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:49:42</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Ralationships</caption>
+            <header>false</header>
+            <name>x_407566_adventu_0_student</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae2bfc1f47c221104a908a5f746d43dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_adventu_0_student</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_ui_section_ae2bfc1f47c221104a908a5f746d43dc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:49:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_ui_section_ae2bfc1f47c221104a908a5f746d43dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Ralationships" section_id="ae2bfc1f47c221104a908a5f746d43dc" sys_domain="global" table="x_407566_adventu_0_student" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>cxs_table_search.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 04:49:42</sys_created_on><sys_id>222bfc1f47c221104a908a5f746d43e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter><sys_ui_section caption="Ralationships" display_value="Ralationships" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">ae2bfc1f47c221104a908a5f746d43dc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-12 04:49:42</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Ralationships</caption><header>false</header><name>x_407566_adventu_0_student</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 04:49:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ae2bfc1f47c221104a908a5f746d43dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_407566_adventu_0_student</sys_name><sys_overrides/><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_ui_section_ae2bfc1f47c221104a908a5f746d43dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-12 04:49:42</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>57034266</payload_hash>
+        <record_name>Student</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 04:49:42</sys_created_on>
+        <sys_id>ea2bfc1f47c221104a908a5f746d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18773cc50b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 04:49:42</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>622bfc1fe2c221102de85b13788ab0e8</update_guid>
+        <update_guid_history>622bfc1fe2c221102de85b13788ab0e8:57034266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 04:53:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>ed597515c47c4623a495d3972ba3f7a1</sys_id>
+        <sys_metadata>ae2bfc1f47c221104a908a5f746d43dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ralationships</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent display_value="Student">3292713e470121104a908a5f746d439c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ae2bfc1f47c221104a908a5f746d43dc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ae2bfc1f47c221104a908a5f746d43dc">ea2bfc1f47c221104a908a5f746d43e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 04:53:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

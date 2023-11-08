@@ -8,7 +8,7 @@
         <name>KPI Details</name>
         <optional_parameters>scoreDate,breakdowns,domain</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>ac_kpi_details</route_type>
         <screen_type display_value="KPI Details">440c2d066f1121101210c2ee8f0c9bfa</screen_type>

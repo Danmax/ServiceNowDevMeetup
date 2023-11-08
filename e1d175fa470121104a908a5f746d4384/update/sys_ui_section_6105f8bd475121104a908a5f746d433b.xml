@@ -1,72 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Parent Info" section_id="6105f8bd475121104a908a5f746d433b" sys_domain="global" table="x_407566_adventu_0_student" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>primary</element>
+            <element>parent</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-01 05:44:54</sys_created_on>
-            <sys_id>7905f8bd475121104a908a5f746d43cd</sys_id>
+            <sys_created_on>2023-04-12 04:53:26</sys_created_on>
+            <sys_id>d50c7c5f47c221104a908a5f746d436b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Parent Info" display_value="Parent Info" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">6105f8bd475121104a908a5f746d433b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-01 05:44:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent_2</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-01 05:44:54</sys_created_on>
-            <sys_id>f905f8bd475121104a908a5f746d43cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Parent Info" display_value="Parent Info" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">6105f8bd475121104a908a5f746d433b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-01 05:44:54</sys_updated_on>
+            <sys_updated_on>2023-04-12 04:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-01 05:44:54</sys_created_on>
-            <sys_id>7d05f8bd475121104a908a5f746d43cd</sys_id>
+            <sys_created_on>2023-04-12 04:53:26</sys_created_on>
+            <sys_id>590c7c5f47c221104a908a5f746d436b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Parent Info" display_value="Parent Info" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">6105f8bd475121104a908a5f746d433b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-01 05:44:54</sys_updated_on>
+            <sys_updated_on>2023-04-12 04:53:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>primary.mobile</element>
-            <position>3</position>
+            <element>parent.mobile</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-01 05:44:54</sys_created_on>
-            <sys_id>fd05f8bd475121104a908a5f746d43cd</sys_id>
+            <sys_created_on>2023-04-12 04:53:26</sys_created_on>
+            <sys_id>d90c7c5f47c221104a908a5f746d436b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Parent Info" display_value="Parent Info" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">6105f8bd475121104a908a5f746d433b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-01 05:44:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent_2.mobile</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-01 05:44:54</sys_created_on>
-            <sys_id>7105f8bd475121104a908a5f746d43ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Parent Info" display_value="Parent Info" name="x_407566_adventu_0_student" sys_domain="global" view="Default view">6105f8bd475121104a908a5f746d433b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-01 05:44:54</sys_updated_on>
+            <sys_updated_on>2023-04-12 04:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

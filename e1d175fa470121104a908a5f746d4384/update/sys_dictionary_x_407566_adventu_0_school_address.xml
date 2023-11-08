@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>140</max_length>
         <name>x_407566_adventu_0_school</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>sys_dictionary_x_407566_adventu_0_school_address</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-28 05:07:30</sys_updated_on>
+        <sys_updated_on>2023-03-11 22:23:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

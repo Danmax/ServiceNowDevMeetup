@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>62985a20475121104a908a5f746d43ae</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-26 03:47:45</sys_created_on>
         <sys_id>987dbcf8479921104a908a5f746d43fa</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>107dbcf87499211056103d3dc3c5c1fa:-1869972618</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Student Transportation.Any User">feadb03c479921104a908a5f746d43a6</sys_audit_delete>
+        <sys_audit_delete display_value="">feadb03c479921104a908a5f746d43a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-26 03:48:44</sys_created_on>

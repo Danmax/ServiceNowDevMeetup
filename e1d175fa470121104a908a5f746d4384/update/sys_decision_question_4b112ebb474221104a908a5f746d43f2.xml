@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>b211263f474221104a908a5f746d431a</answer>
+        <condition table="var__m_sys_decision_input_a10dcaf7470221104a908a5f746d438a">u_student=girl^u_to_studentINfather,mother^EQ<item display_value="Girl" endquery="false" field="u_student" goto="false" newquery="false" operator="=" or="false" value="girl"/>
+            <item display_value="father,mother" endquery="false" field="u_to_student" goto="false" newquery="false" operator="IN" or="false" value="father,mother"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Parent Child Relationship">a10dcaf7470221104a908a5f746d438a</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_a10dcaf7470221104a908a5f746d438a</input_table>
+        <label>Parent Child Relationship_300</label>
+        <order>300</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 01:32:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b112ebb474221104a908a5f746d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parent Child Relationship_300</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_decision_question_4b112ebb474221104a908a5f746d43f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 01:32:03</sys_updated_on>
+    </sys_decision_question>
+</record_update>

@@ -56,8 +56,10 @@
         <record/>
         <record_producer_table/>
         <reference>x_407566_adventu_0_student</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>active=true^EQ</reference_qual>
+        <reference_qual_condition table="x_407566_adventu_0_student">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,7 +77,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-10 04:49:49</sys_created_on>
+        <sys_created_on>2023-05-01 01:25:09</sys_created_on>
         <sys_id>375e7e2447e921104a908a5f746d43ad</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Student</sys_name>
@@ -84,7 +86,7 @@
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>item_option_new_375e7e2447e921104a908a5f746d43ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-10 05:00:10</sys_updated_on>
+        <sys_updated_on>2023-05-01 01:33:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

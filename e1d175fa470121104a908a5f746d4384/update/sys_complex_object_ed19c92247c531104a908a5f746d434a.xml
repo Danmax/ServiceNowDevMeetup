@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>ih_import_FDe919c9227ac53110e5ae7901fbad424a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e1d175fa470121104a908a5f746d4384</scope_name>
+        <serialized_content>{"FlowDesigner:ih_import_FDe919c9227ac53110e5ae7901fbad424a":{"u_arrival_time":"String","u_arrival_time.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Arrival Time\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_ship":"String","u_ship.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ship\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_date":"String","u_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Date\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_terminal":"String","u_terminal.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Terminal\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_cruise_line":"String","u_cruise_line.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Cruise Line\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_port_of_call":"String","u_port_of_call.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Port of Call\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_departure_time":"String","u_departure_time.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Departure Time\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_day":"String","u_day.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Day\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FDe919c9227ac53110e5ae7901fbad424a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FDe919c9227ac53110e5ae7901fbad424a\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 01:03:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed19c92247c531104a908a5f746d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FDe919c9227ac53110e5ae7901fbad424a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_complex_object_ed19c92247c531104a908a5f746d434a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 01:03:27</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

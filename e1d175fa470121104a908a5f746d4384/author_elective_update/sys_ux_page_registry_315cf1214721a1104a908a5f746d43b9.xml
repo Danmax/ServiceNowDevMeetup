@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>355cf1214721a1104a908a5f746d43b9</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>adventure-express-portal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-03-13 02:33:45</sys_created_on>
+        <sys_id>315cf1214721a1104a908a5f746d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventure Express Portal</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ux_page_registry_315cf1214721a1104a908a5f746d43b9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-13 02:33:45</sys_updated_on>
+        <title>Adventure Express Portal</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_ux_page_registry_315cf1214721a1104a908a5f746d43b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>355cf1214721a1104a908a5f746d43b9</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>adventure-express-portal</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-03-13 02:33:45</sys_created_on><sys_id>315cf1214721a1104a908a5f746d43b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adventure Express Portal</sys_name><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_ux_page_registry_315cf1214721a1104a908a5f746d43b9</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-03-13 02:33:45</sys_updated_on><title>Adventure Express Portal</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1187834762</payload_hash>
+        <record_name>Adventure Express Portal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 02:52:58</sys_created_on>
+        <sys_id>14c0c2e14721a1104a908a5f746d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d8e2a9bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 02:52:58</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>d0c0c2e1be21a110e58752bdec3344c4</update_guid>
+        <update_guid_history>d0c0c2e1be21a110e58752bdec3344c4:1187834762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 02:52:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>f2c34a845b884d06a363f0323330f6d1</sys_id>
+        <sys_metadata>315cf1214721a1104a908a5f746d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventure Express Portal</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_315cf1214721a1104a908a5f746d43b9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_315cf1214721a1104a908a5f746d43b9">14c0c2e14721a1104a908a5f746d43c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 02:52:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

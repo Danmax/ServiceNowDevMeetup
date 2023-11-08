@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Adventu 0 1693943574675</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_407566_adventu_0_1693943574675</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 19:52:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>990248ae474131104a908a5f746d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventu 0 1693943574675</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_app_module_990248ae474131104a908a5f746d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 19:52:57</sys_updated_on>
+        <timeline_page/>
+        <title>Adventu 0 1693943574675</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>sys_app_module_990248ae474131104a908a5f746d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Adventu 0 1693943574675</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_407566_adventu_0_1693943574675</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-05 19:52:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>990248ae474131104a908a5f746d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adventu 0 1693943574675</sys_name><sys_overrides/><sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package><sys_policy/><sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope><sys_update_name>sys_app_module_990248ae474131104a908a5f746d433c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-05 19:52:57</sys_updated_on><timeline_page/><title>Adventu 0 1693943574675</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1800483259</payload_hash>
+        <record_name>Adventu 0 1693943574675</record_name>
+        <reverted_from/>
+        <source>0ecbb60d472521104a908a5f746d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 19:52:57</sys_created_on>
+        <sys_id>5d0248ae474131104a908a5f746d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a66e7bb6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 19:52:57</sys_updated_on>
+        <type>Module</type>
+        <update_guid>910248aeb041311095ed9070c2a8853e</update_guid>
+        <update_guid_history>910248aeb041311095ed9070c2a8853e:1800483259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Adventu 0 1693943574675">ab72c0ee474131104a908a5f746d4396</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 19:55:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>088ddca8bf5f49c2b6818e1d85f82464</sys_id>
+        <sys_metadata>990248ae474131104a908a5f746d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventu 0 1693943574675</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>sys_app_module_990248ae474131104a908a5f746d433c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_990248ae474131104a908a5f746d433c">5d0248ae474131104a908a5f746d433e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 19:55:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

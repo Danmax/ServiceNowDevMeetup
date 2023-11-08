@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit</name>
+        <parameter_screen/>
+        <query_condition table="x_407566_adventu_0_maintenance_record">sys_idSTARTSWITH{{sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 20:10:54</sys_created_on>
+        <sys_id>afaa4beb471221104a908a5f746d436f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_afaa4beb471221104a908a5f746d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 20:10:54</sys_updated_on>
+        <table>x_407566_adventu_0_maintenance_record</table>
+        <template>active={{Maintenance active}}^category={{Maintenance category}}^cost={{Maintenance cost}}^date_completed={{Maintenance date_completed}}^details={{Maintenance details}}^due_date={{Maintenance due_date}}^duration={{Maintenance duration}}^mileage={{Maintenance mileage}}^number={{Maintenance number}}^requested_by={{Maintenance requested_by}}^service_by={{Maintenance service_by}}^service_offering={{Maintenance service_offering}}^short_description={{Maintenance short_description}}^status={{Maintenance status}}^vehicle={{Maintenance vehicle}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=afaa4beb471221104a908a5f746d436f"/>
+</record_update>

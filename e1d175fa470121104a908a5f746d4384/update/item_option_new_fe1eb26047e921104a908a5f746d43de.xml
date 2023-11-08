@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Transport Contract">42ddba2447e921104a908a5f746d4362</cat_item>
         <category/>
@@ -17,8 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>parent</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Student">375e7e2447e921104a908a5f746d43ad</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-10 04:48:08</sys_created_on>
+        <sys_created_on>2023-05-01 01:25:09</sys_created_on>
         <sys_id>fe1eb26047e921104a908a5f746d43de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Parent</sys_name>
         <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
         <sys_update_name>item_option_new_fe1eb26047e921104a908a5f746d43de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-10 04:54:34</sys_updated_on>
+        <sys_updated_on>2023-05-01 01:33:01</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

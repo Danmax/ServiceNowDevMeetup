@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="relationship_from_student" table="x_407566_adventu_0_relationship" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>relationship_from_student</element>
+            <name>x_407566_adventu_0_relationship</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>relationship_from_student</sys_name>
+            <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+            <sys_update_name>sys_choice_x_407566_adventu_0_relationship_relationship_from_student</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Son</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>son</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daughter</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>daughter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nephew</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>nephew</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Niece</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>niece</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandson</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>grandson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Granddaughter</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>granddaughter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stepson</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>stepson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stepdaughter</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>stepdaughter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brother</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>brother</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sister</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>sister</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_from_student</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student</label>
+            <language>en</language>
+            <name>x_407566_adventu_0_relationship</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 04:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 04:46:26</sys_updated_on>
+            <value>student</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

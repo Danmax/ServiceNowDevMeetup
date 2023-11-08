@@ -5,8 +5,16 @@
         <element label="Make" max_length="40" name="make" type="string"/>
         <element label="Miles" max_length="40" name="miles" type="string"/>
         <element label="Model" max_length="40" name="model" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Type" max_length="40" name="type" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" formula="CONCATENATE(year,&quot; &quot;,make,&quot; &quot;,model)" label="Name" max_length="140" name="name" read_only="true" type="string" virtual="true" virtual_type="formula"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Car" sequence="0" value="car"/>
+                <element inactive_on_update="false" label="Truck" sequence="1" value="truck"/>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="suv"/>
+                <element inactive_on_update="false" label="Van" sequence="3" value="van"/>
+            </choice>
+        </element>
         <element label="VIN Number" max_length="40" name="vin_number" type="string"/>
         <element label="Year" max_length="40" name="year" type="string"/>
     </element>

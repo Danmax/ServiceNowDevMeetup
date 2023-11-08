@@ -41,7 +41,7 @@
         <update_guid_history>da118328a2e921103ffc177062cbda5d:-287047165</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Transport Contract">aa23c3a847e921104a908a5f746d43c2</sys_audit_delete>
+        <sys_audit_delete display_value="">aa23c3a847e921104a908a5f746d43c2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-10 05:09:12</sys_created_on>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">6fbfd1eaab0931107dd5be52ff8ea18d</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">67bfd1ea0b093110f678de134849e38c</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-06 02:42:30</sys_created_on>
+        <sys_id>63bfd1eae00931109644c13746a0c98d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_63bfd1eae00931109644c13746a0c98d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-06 02:42:30</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

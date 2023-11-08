@@ -8,7 +8,7 @@
         <name>Home</name>
         <optional_parameters>sysId,openInEditMode</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>home</route_type>
         <screen_type display_value="Home">000c2d06c211211042490a7709bba3f5</screen_type>

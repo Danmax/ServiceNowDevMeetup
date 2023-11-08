@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="DELETE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Relationship Table</name>
+        <retention_policy/>
+        <source>x_407566_adventu_0_relationship</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:54</sys_created_on>
+        <sys_id>f01ce146471121104a908a5f746d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relationship Table</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>ais_datasource_f01ce146471121104a908a5f746d434c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:54</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</application>
+        <file_path/>
+        <instance_id>10241734dbefc89452cec5970596192b</instance_id>
+        <instance_name>dev102977</instance_name>
+        <name>ais_datasource_f01ce146471121104a908a5f746d434c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Relationship Table</name>
+        <retention_policy/>
+        <source>x_407566_adventu_0_relationship</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 04:23:54</sys_created_on>
+        <sys_id>f01ce146471121104a908a5f746d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relationship Table</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>ais_datasource_f01ce146471121104a908a5f746d434c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 04:23:54</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>]]></payload>
+        <payload_hash>-1753836106</payload_hash>
+        <record_name>Relationship Table</record_name>
+        <reverted_from/>
+        <source>80fa7e4d472521104a908a5f746d4357</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 17:50:42</sys_created_on>
+        <sys_id>cf0bbe8d472521104a908a5f746d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d1cbd8910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 17:50:42</sys_updated_on>
+        <type>AI Search Indexed Source</type>
+        <update_guid>8f0bbe8dc3252110e9dd6df39288b130</update_guid>
+        <update_guid_history>8f0bbe8dc3252110e9dd6df39288b130:-1753836106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Relationship Table">d859362d47e1a1104a908a5f746d437d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 07:00:06</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource">ais_datasource</sys_db_object>
+        <sys_id>2852914a7d66476f8469e4addc513991</sys_id>
+        <sys_metadata>f01ce146471121104a908a5f746d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relationship Table</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_scope_delete display_value="">4731d4f04cfb4ead8bb2ba3f1a0eae69</sys_scope_delete>
+        <sys_update_name>ais_datasource_f01ce146471121104a908a5f746d434c</sys_update_name>
+        <sys_update_version display_value="ais_datasource_f01ce146471121104a908a5f746d434c">cf0bbe8d472521104a908a5f746d4330</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 07:00:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

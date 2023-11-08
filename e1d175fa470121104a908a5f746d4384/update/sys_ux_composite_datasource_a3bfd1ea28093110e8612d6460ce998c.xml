@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^sys_class_name!=incident^sys_class_name!=sc_req_item^sys_class_name!=sysapproval_group^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name!=sc_request^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Incident" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="incident"/>
+            <item display_value="Requested Item" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="sc_req_item"/>
+            <item display_value="Group approval" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="sysapproval_group"/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="Request" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="sc_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>My Request - Task Datasource</name>
+        <sort_by>sys_created_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-06 02:42:27</sys_created_on>
+        <sys_id>a3bfd1ea28093110e8612d6460ce998c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Request - Task Datasource</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_a3bfd1ea28093110e8612d6460ce998c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-06 02:42:27</sys_updated_on>
+        <table>task</table>
+    </sys_ux_composite_datasource>
+</record_update>

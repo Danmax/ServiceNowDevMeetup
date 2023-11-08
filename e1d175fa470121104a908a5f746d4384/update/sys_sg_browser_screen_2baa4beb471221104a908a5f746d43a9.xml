@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <available_offline>true</available_offline>
+        <check_acl>false</check_acl>
+        <description>Adventure Express Servers the Area of St. Cloud / Kissimmee</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Knowledge">a3aa4beb471221104a908a5f746d43a9</icon>
+        <name>School Map</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 20:10:54</sys_created_on>
+        <sys_id>2baa4beb471221104a908a5f746d43a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>School Map</sys_name>
+        <sys_package display_value="Adventure Express" source="x_407566_adventu_0">e1d175fa470121104a908a5f746d4384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Express">e1d175fa470121104a908a5f746d4384</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_2baa4beb471221104a908a5f746d43a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:28:46</sys_updated_on>
+        <url>https://dev102977.service-now.com/now/nav/ui/classic/params/target/%24map_page_primary.do%3Fsysparm_sys_id%3Db90d3fcd472921104a908a5f746d43c7</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=2baa4beb471221104a908a5f746d43a9"/>
+</record_update>
