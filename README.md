@@ -1,4 +1,4 @@
-# Dev Meetup 2024
+# Dev Meetup Resources
 
 ## Welcome
 Here will update Tasks for the Dev Meetup Repository
